@@ -15,6 +15,10 @@
 ;;Setup basics for emacs
 (require 'init-elpa)
 
+;;Multi-Language-Deps
+(require 'paredit)
+(require 'rainbow-delimiters)
+
 ;;Languages
 (require 'init-clojure-cider)
 (require 'init-haskell)
@@ -24,6 +28,7 @@
 (require 'ido)
 (ido-mode t)
 (require 'init-windmove)
+
 ;;Emacs auto
 (custom-set-variables
  ;; custom-set-variables was added by Custom.
