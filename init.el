@@ -7,6 +7,8 @@
 ;;Theme
 (add-to-list 'custom-theme-load-path "~/.emacs.d/lib/color-themes")
 (load-theme 'noctilux t)
+(set-face-background 'mode-line "#487275")
+(set-face-background 'modeline-inactive "#A2B1B3")
 
 ;;load init helper files
 (add-to-list 'load-path (expand-file-name "lisp" user-emacs-directory))
