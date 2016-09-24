@@ -4,15 +4,11 @@
 ;; You may delete these explanatory comments.
 (package-initialize)
 
-;;Theme
-(add-to-list 'custom-theme-load-path "~/.emacs.d/lib/color-themes")
-(load-theme 'noctilux t)
-(set-face-background 'mode-line "#487275")
-(set-face-background 'modeline-inactive "#A2B1B3")
-
 ;;load init helper files
 (add-to-list 'load-path (expand-file-name "lisp" user-emacs-directory))
 
+;;Theme
+(require 'init-theme)
 
 ;;Setup basics for emacs
 (require 'init-elpa)
@@ -20,6 +16,7 @@
 ;;Multi-Language-Deps
 (require 'paredit)
 (require 'rainbow-delimiters)
+(require 'company)
 
 ;;Languages
 (require 'init-clojure-cider)

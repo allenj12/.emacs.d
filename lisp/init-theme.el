@@ -1,0 +1,10 @@
+(add-to-list 'custom-theme-load-path "~/.emacs.d/lib/color-themes")
+(load-theme 'noctilux t)
+(set-face-background 'mode-line "#487275")
+(set-face-background 'modeline-inactive "#A2B1B3")
+(menu-bar-mode -1)
+(tool-bar-mode -1)
+(toggle-scroll-bar -1)
+(add-to-list 'default-frame-alist '(fullscreen . maximized))
+
+(provide 'init-theme)
