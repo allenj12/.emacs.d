@@ -32,7 +32,6 @@
 ;; then, when you want archive some messages, move them to
 ;; the 'All Mail' folder by pressing ``ja''.
 
-;;(setq mu4e-html2text-command "html2text")
 (setq mu4e-html2text-command
       "w3m -o display_link_number=1 -cols 120 -dump -T text/html")
 
@@ -53,26 +52,30 @@
   "Email: joeallen92@gmail.com\n"
   "\n"))
 
-;; sending mail -- replace USERNAME with your gmail username
-;; also, make sure the gnutls command line utils are installed
-;; package 'gnutls-bin' in Debian/Ubuntu
-
-;;(require 'smtpmail)
-;;(setq message-send-mail-function 'smtpmail-send-it
-;;       starttls-use-gnutls t
-;;       smtpmail-starttls-credentials '(("smtp.gmail.com" 587 nil nil))
-;;       smtpmail-auth-credentials
-;;       '(("smtp.gmail.com" 587 "USER@gmail.com" nil))
-;;       smtpmail-default-smtp-server "smtp.gmail.com"
-;;       smtpmail-smtp-server "smtp.gmail.com"
-;;       smtpmail-smtp-service 587)
-
- alternatively, for emacs-24 you can use:
+;;alternatively, for emacs-24 you can use:
 (setq message-send-mail-function 'smtpmail-send-it
     smtpmail-stream-type 'starttls
     smtpmail-default-smtp-server "smtp.gmail.com"
     smtpmail-smtp-server "smtp.gmail.com"
     smtpmail-smtp-service 587)
+
+;;for attachments
+(require 'gnus-dired)
+;; make the `gnus-dired-mail-buffers' function also work on
+;; message-mode derived modes, such as mu4e-compose-mode
+(defun gnus-dired-mail-buffers ()
+  "Return a list of active message buffers."
+  (let (buffers)
+    (save-current-buffer
+      (dolist (buffer (buffer-list t))
+        (set-buffer buffer)
+        (when (and (derived-mode-p 'message-mode)
+                (null message-sent-message-via))
+          (push (buffer-name buffer) buffers))))
+    (nreverse buffers)))
+
+(setq gnus-dired-mail-mode 'mu4e-user-agent)
+(add-hook 'dired-mode-hook 'turn-on-gnus-dired-mode)
 
 ;; don't keep message buffers around
 (setq message-kill-buffer-on-exit t)
