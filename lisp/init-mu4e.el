@@ -67,7 +67,7 @@
 ;;       smtpmail-smtp-server "smtp.gmail.com"
 ;;       smtpmail-smtp-service 587)
 
- alternatively, for emacs-24 you can use:
+;; alternatively, for emacs-24 you can use:
 (setq message-send-mail-function 'smtpmail-send-it
     smtpmail-stream-type 'starttls
     smtpmail-default-smtp-server "smtp.gmail.com"
