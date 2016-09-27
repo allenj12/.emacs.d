@@ -1,0 +1,70 @@
+(require 'erc)
+(require 'erc-log)
+(require 'erc-notify)
+(require 'erc-spelling)
+(require 'erc-autoaway)
+
+;; Join the a couple of interesting channels whenever connecting to Freenode.
+(setq erc-autojoin-channels-alist '(("freenode.net"
+                                     "#emacs" "#clojure" "#haskell")))
+
+(setq erc-hide-list '("JOIN" "PART" "QUIT"))
+
+;; Interpret mIRC-style color commands in IRC chats
+(setq erc-interpret-mirc-color t)
+
+;; The following are commented out by default, but users of other
+;; non-Emacs IRC clients might find them useful.
+;; Kill buffers for channels after /part
+(setq erc-kill-buffer-on-part t)
+;; Kill buffers for private queries after quitting the server
+(setq erc-kill-queries-on-quit t)
+;; Kill buffers for server messages after quitting the server
+(setq erc-kill-server-buffer-on-quit t)
+
+;; open query buffers in the current window
+(setq erc-query-display 'buffer)
+
+;; truncate long irc buffers
+(erc-truncate-mode +1)
+
+(add-to-list 'erc-modules 'notifications)
+
+;; autoaway setup
+(setq erc-auto-discard-away t)
+(setq erc-autoaway-idle-seconds 600)
+(setq erc-autoaway-use-emacs-idle t)
+
+;; auto identify
+(when (file-exists-p (expand-file-name "~/.ercpass"))
+  (load "~/.ercpass")
+  (require 'erc-services)
+  (erc-services-mode 1)
+  (setq erc-prompt-for-nickserv-password nil)
+  (setq erc-nickserv-passwords
+        `((freenode (("allenj12" . ,pass)))))
+  )
+
+(defun start-irc ()
+  "Connect to IRC."
+  (interactive)
+  (erc :server "irc.freenode.net" :port 6667 :nick "allenj12"))
+
+(defun filter-server-buffers ()
+  (delq nil
+        (mapcar
+         (lambda (x) (and (erc-server-buffer-p x) x))
+         (buffer-list))))
+
+(defun stop-irc ()
+  "Disconnects from all irc servers"
+  (interactive)
+  (dolist (buffer (filter-server-buffers))
+    (message "Server buffer: %s" (buffer-name buffer))
+    (with-current-buffer buffer
+      (erc-quit-server "Asta la vista"))))
+
+;; utf-8 always and forever
+(setq erc-server-coding-system '(utf-8 . utf-8))
+
+(provide 'init-erc)

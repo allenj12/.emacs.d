@@ -29,6 +29,8 @@
 (ido-mode t)
 (require 'init-windmove)
 (require 'init-buffer-move)
+(require 'init-mu4e)
+(require 'init-erc)
 
 ;;Emacs auto
 (custom-set-variables
