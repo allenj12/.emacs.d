@@ -52,25 +52,6 @@
   "Email: joeallen92@gmail.com\n"
   "\n"))
 
-<<<<<<< HEAD
-;;alternatively, for emacs-24 you can use:
-=======
-;; sending mail -- replace USERNAME with your gmail username
-;; also, make sure the gnutls command line utils are installed
-;; package 'gnutls-bin' in Debian/Ubuntu
-
-;;(require 'smtpmail)
-;;(setq message-send-mail-function 'smtpmail-send-it
-;;       starttls-use-gnutls t
-;;       smtpmail-starttls-credentials '(("smtp.gmail.com" 587 nil nil))
-;;       smtpmail-auth-credentials
-;;       '(("smtp.gmail.com" 587 "USER@gmail.com" nil))
-;;       smtpmail-default-smtp-server "smtp.gmail.com"
-;;       smtpmail-smtp-server "smtp.gmail.com"
-;;       smtpmail-smtp-service 587)
-
-;; alternatively, for emacs-24 you can use:
->>>>>>> 566fe630f29c9ff9913a225218936c3977210146
 (setq message-send-mail-function 'smtpmail-send-it
     smtpmail-stream-type 'starttls
     smtpmail-default-smtp-server "smtp.gmail.com"
