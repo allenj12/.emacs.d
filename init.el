@@ -31,6 +31,7 @@
 (require 'init-buffer-move)
 (require 'init-mu4e)
 (require 'init-erc)
+(require 'init-ace-jump)
 
 ;;Emacs auto
 (custom-set-variables
@@ -38,14 +39,14 @@
  ;; If you edit it by hand, you could mess it up, so be careful.
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
- '(x-select-enable-clipboard-manager  nil)
  '(haskell-process-auto-import-loaded-modules t)
  '(haskell-process-log t)
  '(haskell-process-suggest-remove-import-lines t)
  '(haskell-process-type (quote stack-ghci))
  '(package-selected-packages
    (quote
-    (buffer-move eclim jdee irony-eldoc company-irony company-ghci haskell-mode ## paredit irony cider))))
+    (ace-jump-mode buffer-move eclim jdee irony-eldoc company-irony company-ghci haskell-mode ## paredit irony cider)))
+ '(x-select-enable-clipboard-manager nil))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
