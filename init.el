@@ -17,21 +17,35 @@
 (require 'paredit)
 (require 'rainbow-delimiters)
 (require 'company)
+(require 'flycheck)
 
 ;;Languages
 (require 'init-clojure-cider)
 (require 'init-haskell)
 (require 'init-c)
+(require 'idris-mode)
+
+(require 'init-go)
+(when (memq window-system '(mac ns x))
+  (exec-path-from-shell-initialize))
+
+(require 'factor-mode)
+(setq fuel-listener-factor-binary "/home/joe/.factor/factor/factor")
+(setq fuel-listener-factor-image "/home/joe/.factor/factor/factor.image")
+
 (require 'init-eclim)
+(require 'init-typescript)
+(add-hook 'after-init-hook #'global-flycheck-mode)
 
 ;;Utility
 (require 'ido)
 (ido-mode t)
 (require 'init-windmove)
 (require 'init-buffer-move)
-(require 'init-mu4e)
+;;(require 'init-mu4e)
 (require 'init-erc)
 (require 'init-ace-jump)
+(setq doc-view-continuous t)
 
 ;;Emacs auto
 (custom-set-variables
@@ -45,7 +59,7 @@
  '(haskell-process-type (quote stack-ghci))
  '(package-selected-packages
    (quote
-    (ace-jump-mode buffer-move eclim jdee irony-eldoc company-irony company-ghci haskell-mode ## paredit irony cider)))
+    (idris-mode neotree fuel exec-path-from-shell auto-complete company-go go-mode rainbow-delimiters company-emacs-eclim web-mode tide flycheck company-quickhelp ace-jump-mode buffer-move eclim jdee irony-eldoc company-irony company-ghci haskell-mode ## paredit irony cider)))
  '(x-select-enable-clipboard-manager nil))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
@@ -53,3 +67,4 @@
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
  )
+(put 'downcase-region 'disabled nil)

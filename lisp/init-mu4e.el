@@ -18,7 +18,7 @@
       (advice-remove 'message #'silence))))
 
 ;;automatically update emails every X seconds
-(setq mu4e-update-interval 10)
+(setq mu4e-update-interval 60)
 (setq mu4e-get-mail-command "offlineimap")
 
 ;;and make it shut up about it

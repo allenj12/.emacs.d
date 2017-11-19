@@ -20,6 +20,8 @@
 
 (require 'irony-eldoc)
 (with-eval-after-load "irony-eldoc"
-    (add-hook 'irony-mode-hook 'irony-eldoc))
+  (add-hook 'irony-mode-hook 'irony-eldoc))
+
+(setq irony-additional-clang-options '("-std=c++14"))
 
 (provide 'init-c)

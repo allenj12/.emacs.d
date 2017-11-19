@@ -1,0 +1,34 @@
+echo $(+ 1 2 3)
+sudo pacman -Syu
+clear
+
+clear
+
+sudo pacman -Syu
+clear
+
+ls
+cd .emacs.d/
+ls
+git status
+git pull
+git add elpa/* init.el lisp/init-clojure-cider.el lisp/init-theme.el 
+git status
+git commit -m "seperated out theme into its own init-*"
+git push
+git status
+:quit
+cd Dev/
+ls
+mkdir java
+cd java
+rm hello.java 
+clear
+
+sudo pacman -Syu
+yaourt -Syu --aur
+clear
+
+yaourt -Syu --aur
+clear
+

@@ -1,0 +1,362 @@
+;;; -*- coding: utf-8 -*-
+
+;; ----- ido-last-directory-list -----
+(
+ ("/home/jallen/dev/idris/tdd/" . "ch6/")
+ ("/home/jallen/dev/idris/dtdd/" . "ch3/")
+ ("/home/jallen/dev/idris/" . "tdd/")
+ ("/home/jallen/dev/" . "idris/")
+ ("/sudo:root@localhost:/etc/" . "samba/")
+ ("/sudo:root@localhost:/" . "etc/")
+ ("/sudo:localhost:/etc/" . "samba/")
+ ("/sudo:localhost:/" . "etc/")
+ ("/etc/" . "samba/")
+ ("/home/jallen/" . "dev/")
+ ("/tmp/.emacs.d/" . "elpa/")
+ ("/home/joe/Dev/factor/" . "tutorial/")
+ ("/home/joe/.factor/factor/" . "Factor.app/")
+ ("/home/joe/.factor/" . "factor/")
+ ("/home/joe/Dev/go/" . "nnd/")
+ ("/home/joe/Dev/clojure/quick-chess/public/" . "css/")
+ ("/home/joe/Dev/clojure/stuff/src/" . "stuff/")
+ ("/home/joe/Dev/clojure/stuff/" . "src/")
+ ("/home/joe/Dev/clojure/scratch/src/" . "scratch/")
+ ("/home/joe/Dev/clojure/scratch/" . "src/")
+ ("/home/joe/Dev/clojure/quick-chess/resources/" . "public/")
+ ("/home/joe/Dev/clojure/quick-chess/src/" . "quick_chess/")
+ ("/home/joe/Dev/clojure/quick-chess/" . "src/")
+ ("/home/joe/Dev/clojure/cmonkey/src/" . "cmonkey/")
+ ("/home/joe/Dev/clojure/cmonkey/" . "src/")
+ ("/home/joe/Dev/clojure/crashverse/src/" . "crashverse/")
+ ("/home/joe/Dev/clojure/crashverse/" . "src/")
+ ("/home/joe/Dev/clojure/om-async/src/cljs/" . "om_async/")
+ ("/home/joe/Dev/clojure/om-async/src/clj/" . "om_async/")
+ ("/home/joe/Dev/clojure/om-async/src/" . "cljs/")
+ ("/home/joe/Dev/clojure/om-async/" . "src/")
+ ("/home/joe/Dev/clojure/om-tut/resources/public/" . "css/")
+ ("/home/joe/Dev/clojure/om-tut/resources/" . "public/")
+ ("/home/joe/Dev/clojure/om-tut/src/" . "om_tut/")
+ ("/home/joe/Dev/clojure/om-tut/" . "src/")
+ ("/home/joe/Dev/clojure/playground/src/" . "playground/")
+ ("/home/joe/Dev/clojure/playground/" . "src/")
+ ("/" . "etc/")
+ ("/home/joe/Dev/web/ghetto-foreskins/frontend/" . "src/")
+ ("/home/joe/Dev/web/ghetto-foreskins/" . "frontend/")
+ ("/home/joe/Dev/web/frontend/" . "src/")
+ ("/home/joe/Dev/web/ts-examples/" . "todomvc/")
+ ("/home/joe/Dev/web/" . "ghetto-foreskins/")
+ ("/home/joe/.steam/steam/steamapps/common/Counter-Strike Global Offensive/" . "csgo/")
+ ("/home/joe/Dev/web/ts-examples/todomvc/" . "js/")
+ ("/home/joe/Dev/haskell/littleBits/" . "src/")
+ ("/home/joe/.steam/steam/steamapps/common/Counter-Strike Global Offensive/csgo/" . "cfg/")
+ ("/home/joe/.steam/steam/steamapps/common/" . "Counter-Strike Global Offensive/")
+ ("/home/joe/.steam/steam/steamapps/" . "common/")
+ ("/home/joe/.steam/steam/" . "steamapps/")
+ ("/home/joe/.steam/" . "steam/")
+ ("/home/joe/Dev/java/RBTree/" . "src/")
+ ("/home/joe/Dev/java/Pad/" . "src/")
+ ("/home/joe/Dev/java/Scratch/" . "src/")
+ ("/home/joe/Dev/java/scratch/src/" . "java/")
+ ("/home/joe/Dev/java/scratch/" . "bin/")
+ ("/home/joe/Dev/haskell/aStar/" . "src/")
+ ("/home/joe/Dev/haskell/pad/" . "src/")
+ ("/home/joe/Dev/haskell/hello/.stack-work/install/x86_64-linux-ncurses6/lts-7.0/8.0.1/" . "bin/")
+ ("/home/joe/Dev/haskell/hello/.stack-work/install/x86_64-linux-ncurses6/lts-7.0/" . "8.0.1/")
+ ("/home/joe/Dev/haskell/hello/.stack-work/install/x86_64-linux-ncurses6/" . "lts-7.0/")
+ ("/home/joe/Dev/haskell/hello/.stack-work/install/" . "x86_64-linux-ncurses6/")
+ ("/home/joe/Dev/haskell/hello/.stack-work/" . "install/")
+ ("/home/joe/Dev/haskell/scratch/" . "src/")
+ ("/home/joe/.offlineimap/Account-Gmail/" . "LocalStatus-sqlite/")
+ ("/home/joe/.offlineimap/" . "Account-Gmail/")
+ ("/home/joe/Dev/java/helloWorld/" . "src/")
+ ("/home/joe/Dev/java/" . "Pad/")
+ ("/home/joe/Dev/haskell/hello/" . "src/")
+ ("/home/joe/Dev/haskell/" . "littleBits/")
+ ("/home/joe/Documents/" . "jobHunt/")
+ ("/home/joe/Dev/c++/" . "nnd/")
+ ("/home/" . "jallen/")
+ ("/home/joe/Dev/clojure/jam1/src/" . "jam1/")
+ ("/home/joe/Dev/clojure/jam1/" . "src/")
+ ("/home/joe/Dev/clojure/clojearne/src/" . "clojearne/")
+ ("/home/joe/Dev/clojure/clojearne/" . "src/")
+ ("/home/joe/Dev/clojure/test/src/" . "test/")
+ ("/home/joe/Dev/clojure/test/" . "src/")
+ ("/home/joe/Dev/clojure/" . "quick-chess/")
+ ("/home/joe/Dev/" . "c++/")
+ ("/home/joe/.emacs.d/" . "lisp/")
+ ("/home/joe/" . "Dev/")
+)
+
+;; ----- ido-work-directory-list -----
+(
+ "/home/jallen/dev/clojure/stats/"
+ "/home/jallen/dev/idris/tdd/ch11/"
+ "/home/jallen/dev/idris/tdd/ch10/"
+ "/home/jallen/dev/idris/tdd/ch6/"
+ "/home/jallen/dev/idris/tdd/ch8/"
+ "/home/jallen/dev/idris/tdd/ch5/"
+ "/home/jallen/dev/idris/tdd/ch4/"
+ "/home/jallen/dev/idris/tdd/ch7/"
+ "/home/jallen/dev/idris/dtdd/ch3/"
+ "/home/jallen/dev/idris/hello/"
+ "/home/jallen/"
+ "/home/jallen/.emacs.d/"
+ "/etc/"
+ "/home/jallen/Dev/"
+ "/etc/samba/"
+ "/sudo:localhost:/etc/samba/"
+ "/sudo:root@localhost:/etc/samba/"
+ "/sudo:localhost:"
+ "/su:root@localhost:"
+ "/bin/"
+ "/tmp/.emacs.d/lisp/"
+ "/tmp/.emacs.d/"
+ "/home/joe/Dev/c++/nnd/"
+ "/home/joe/Dev/go/nnd/"
+ "/home/joe/Dev/factor/tutorial/"
+ "/home/joe/Dev/go/test/"
+ "/home/joe/Dev/go/"
+ "/home/joe/Dev/factor/test/"
+ "/home/joe/.emacs.d/"
+ "/home/joe/.factor/factor/work/"
+ "/home/joe/Dev/test/"
+ "/home/joe/Dev/"
+ "/home/joe/.factor/"
+ "/home/joe/Dev/c++/pad/"
+ "/home/joe/Dev/java/Pad/src/"
+ "/home/joe/.emacs.d/lisp/"
+ "/home/joe/Dev/factor/factor/"
+ "/home/joe/Dev/c++/cgi/"
+ "/home/joe/Dev/c++/"
+ "/home/joe/Dev/c++/srcatch/"
+ "/home/joe/Dev/haskell/littleBits/src/"
+ "/home/joe/Dev/clojure/quick-chess/src/quick_chess/"
+ "/home/joe/Dev/clojure/quick-chess/"
+ "/home/joe/Dev/java/Scratch/src/"
+ "/home/joe/Dev/clojure/quick-chess/public/css/"
+ "/home/joe/Dev/clojure/quick-chess/public/"
+ "/home/joe/Dev/clojure/stuff/"
+ "/home/joe/Dev/clojure/stuff/src/stuff/"
+ "/home/joe/Dev/clojure/quick-chess/resources/public/"
+ "/home/joe/Dev/clojure/quick-chess/resources/public/js/compiled/"
+)
+
+;; ----- ido-work-file-list -----
+(
+ "project.clj"
+ "CHANGELOG.md"
+ "hellostats"
+ "Main.idr"
+ "ch11.ipkg"
+ "TestStore.idr"
+ "DataStore.idr"
+ "Main.ibc"
+ "ch8.ipkg"
+ "ch7.ipkg"
+)
+
+;; ----- ido-dir-file-cache -----
+(
+ ("/home/jallen/dev/clojure/stats/" (23056 28602 757386 409000) "README.md" "project.clj~" "doc/" "LICENSE" ".hgignore" "project.clj" "test/" "resources/" ".lein-repl-history" "./" "target/" ".gitignore" "hellostats.clj" "CHANGELOG.md" "src/" "../")
+
+ ("/home/jallen/dev/idris/tdd/ch11/" (23006 38463 230410 761000) "ch11.ipkg~" "./" "../" "ch11.ipkg")
+
+ ("/home/jallen/dev/idris/tdd/ch10/" (23001 42183 352941 420000) "ch10.ipkg~" "DataStore.ibc" "ch10.ipkg" "DataStore.idr" "Main.ibc" "Main.idr" "Main.idr~" "./" "DataStore.idr~" "../")
+
+ ("/home/jallen/dev/idris/tdd/" (23001 29707 136408 979000) "ch3/" "ch6/" "ch10/" "ch8/" "./" "ch7/" "ch5/" "ch4/" "../" "ch9/")
+
+ ("/home/jallen/dev/idris/tdd/ch5/" (23000 7559 509455 424000) "ch5.ipkg" "Main.ibc" "ch5.ipkg~" "Main.idr" "Main.idr~" "./" "../")
+
+ ("/home/jallen/dev/idris/" (23000 3915 587493 176000) "hello/" "tdd/" "./" "../")
+
+ ("/home/jallen/dev/idris/tdd/ch7/" (23000 5528 886968 771000) "ch7.ipkg" "Main.ibc" "Main.idr" "Main.idr~" "./" "ch7.ipkg~" "../")
+
+ ("/bin/" (22997 22018 667550 385000) "display-coords" "libreoffice" "uconv" "sensors" "hp-query" "btrfs" "pages2html" "lsmem" "gvfs-tree" "arbocclude" "wordlist2hunspell" "ldns-revoke" "sasldblistusers2" "cat" "alsa-info.sh" "printf" "rmmod" "unix-lpr.sh" "msgfilter" "uuidgen" "aspell-import" "array" "hostname" "fdformat" "xfce4-clipman-settings" "captoinfo" "xfce4-power-manager" "fixcvsdiff" "grepdiff" "conplay" "awk" "pbinfo32" "python2-config" "samplers_array" "mtp-thumb" "pinentry-gtk-2" "kadmin.local" "sensord" "fc-pattern" "systemd-hwdb" "healthd" "mpeg2enc" "cdr2raw" "thin_check" "gtester-report" "qmake" "sharedtex" "wordforms" "setfacl" "dfbswitch" "idevicedebug" "xfce4-mouse-settings" "wvgain" "tri-logicop-none" "line-xor" "rtpr" "es2_info32" "systemd-tmpfiles" "rds-ctl" "soundstretch" "dtsdec" "gtk-update-icon-cache" "unwrapdiff" "winbindd" "numlockx" "gs-tri" "sshd" "img2txt" "copytex" "vgscan" "mk_cmds" "xdg-screensaver" "pdbedit" "idris" "telnet" "grpck" "pvcreate" "vp-array" "quadstrip-cont" "pbinfo" "tri-edgeflag" "umount.ecryptfs" "ebook2raw" "jack_netsource" "svnmucc" "poly-flat" "line-stipple-wide" "uname26" "smbpasswd" "geom-sprites" "poly-flat-unfilled-clip" "voikkohyphenate" "zfgrep" "y4mspatialfilter" "yaml2json" "pcre2grep" "pdftoppm" "truncate" "fslight" "fsck.ext3" "nproc" "moc-qt5" "gufw" "ln" "gcc" "pic2graph" "ts_print_mt" "iptables-translate" "thin_ls" "switch_root" "bsincgen" "anacron" "lsns" "swaplabel" "derb" "javac" "zipinfo" "alsaloop" "pwmconfig" "gawk-4.1.4" "cksum" "seq" "dnsmasq" "nl-class-add" "svnlook" "pyvenv-3.6" "uic" "repo-elephant" "redland-db-upgrade" "nl-route-add" "blinking-teapot" "lou_translate" "udiskie-umount" "7zr" "chcpu" "broadwayd" "ntfsusermap" "python3.6" "purple-send-async" "ldns-update" "mp4trackdump" "shadowtex" "dmraid" "pkaction" "python" "ksu" "fgrep" "xfce4-session" "grops" "nohup" "x86_64-pc-linux-gnu-pkg-config" "klist" "xfce4-dict" "light-locker" "aspell" "guile-snarf" "bdftopcf" "snmpgetnext" "mtp-trexist" "orage" "thunar-settings" "whoami" "jiv" "gsf-vba-dump" "libpng-config" "smbclient" "reiserfsck" "aserver" "lp" "hp-toolbox" "hp-clean" "mk_isdnhwdb" "rlogin" "grub-mount" "useradd" "shape32" "ntpdc" "cut" "ckbcomp" "matteblend.flt" "line-userclip-nop-clip" "btrfs-map-logical" "vmstat" "media-ctl" "directfb-config" "fc-list" "pid1" "umount.nfs4" "pydoc" "pydoc3" "reject" "pvchange" "tri-blend-revsub" "hp-align" "y4mtoppm" "blockdev" "lastlog" "lvmsar" "tri-blend-color" "pcre2-config" "lvcreate" "init" "decode_tm6000" "ntfs-3g" "tcat" "bzip2" "Wand-config" "mkdgiff" "ntpq" "ldbedit" "blkdiscard" "samba_spnupdate" "autoconf" "kbdinfo" "gtk-builder-tool" "lavaddwav" "ntptrace" "gpgv2" "ldbadd" "x86_64-pc-linux-gnu-gcc" "dhcpcd" "raw2tiff" "vendor_perl/" "dvbv5-zap" "msguniq" "gpm" "foomatic-configure" "hp-print" "xrotfontdemo32" "mkfs.vfat" "cuberender" "vsd2text" "ngettext" "ionice" "gears" "pppdump" "drawelements-large" "grub-reboot" "readelf" "stex3d" "directfb-csource" "gsc" "mkfs.fat" "ijs_client_example" "gtk-demo" "glib-compile-schemas" "altonegen" "xfce4-taskmanager" "ipf-mod.pl" "KateDJ" "hp-pqdiag" "uname" "cache_metadata_size" "mouse-dpi-tool" "hp-check" "osdemo1632" "tlp-stat" "taskset" "makedb" "nl-tctree-list" "tri-2101010" "tnameserv" "gcc-ar" "bunzip2" "glxswapcontrol32" "mkfs.reiserfs" "lodraw" "iptables" "ebook2text" "es2gears_x11" "deriv" "ecryptfs-wrap-passphrase" "attr" "trifan-unfilled" "mwawFile" "toast" "zegrep" "trust" "foomatic-ppd-options" "tiffgt" "telinit" "hp2ps" "extract_dts" "flat-clip" "quad-unfilled" "make" "mount.cifs" "cmsutil" "lzless" "grep" "cc" "avahi-daemon" "lpinfo" "mbim-network" "ldns-dane" "vigr" "yacc" "lvscan" "autoupdate" "ftpd" "osd_login" "pylupdate5" "cacaview" "vgck" "ld.gold" "capsh" "gdtopng" "filecap" "ldns-key2ds" "eqn" "rmdir" "rasqal-config" "makeinfo" "chvt" "yuyvtoy4m" "systemd-cgtop" "setxkbmap" "MagickWand-config" "mp4chaps" "geom-stipple-lines" "elfedit" "lofromtemplate" "cd-read" "gvfs-info" "grolbp" "nl-link-enslave" "pacman-db-upgrade" "gpgparsemail" "djvudigital" "m17n-date" "eject" "mpegtranscode" "idle2" "tri-rotate" "iconvconfig" "tzselect" "base32" "vp-tri" "paclist" "libevdev-tweak-device" "avahi-browse" "grub-mknetdir" "nf-ct-list" "yuvycsnoise" "memusage" "orcus-mso-encryption" "tri-tex-1d" "thin_dump" "findfs" "Thunar" "sudoreplay" "amixer" "db_log_verify" "glxpbdemo" "xfce4-notes" "avahi-bookmarks" "znew" "samba-tool" "clang-import-test" "pmd2svg" "ixion-parser" "mp4file" "mailx" "tri-unfilled-fog" "alsa_loopback" "msgcmp" "xfce4-appearance-settings" "wdctl" "lightdm-gtk-greeter-settings-pkexec" "sntp" "pngtogd" "nl-route-delete" "aplay" "qmake-qt5" "rdfproc" "resize.f2fs" "eps2eps" "cupsreject" "hp-unload" "base64" "expr" "bzcat" "dosfsck" "lav2wav" "fstrim" "appstream-builder" "chrt" "lavpipe" "set-wireless-regdom" "paccache" "y4mshift" "mtp-filetree" "rename" "audtool" "word-list-compress" "rtmpdump" "ifconfig" "wifi" "getsysinfo" "grog" "rcp" "locale" "explode" "glthreads32" "dfbproxy" "scan-view" "jack_samplerate" "bluetooth" "sg" "emacsclient" "xdg-user-dir" "lpmove" "whatis" "fmt" "amidi" "install" "xfce4-popup-applicationsmenu" "pdfmom" "svndumpfilter" "fbobind" "watch" "applygnupgdefaults" "ppdi" "iso-info" "Magick-config" "readprofile" "orcus-gnumeric" "upower" "tic" "cheapskate-dingus" "cracklib-packer" "swapoff" "strings" "ffplay" "chat" "groffer" "mtp-emptyfolders" "acpi_listen" "xzfgrep" "acpi" "lpoptions" "fold" "gphoto2-port-config" "update-mime-database" "mpg123-strip" "grub-render-label" "rdisc" "pilprint" "pppd" "snmpget" "last" "ulockmgr_server" "voikkovfstc" "kernel-install" "ippfind" "ideviceprovision" "pptpsetup" "gslj" "etags" "mkfs.xfs" "nl-rule-list" "setmetamode" "tri-alpha-tex" "e2image" "gvfs-ls" "png-fix-itxt" "b43-fwcutter" "lslocks" "ebrowse" "lkbib" "alrecord" "tri-unfilled-clip" "avahi-publish-address" "pinentry" "pacmd" "groupmems" "ntpd" "appstream-util" "libtoolize" "lzcat" "jack_load" "kbdrate" "lvmdump" "xkbcomp" "alsa_in" "nmtui-connect" "easy_install-3.6" "fsck.msdos" "tty" "djvm" "foomatic-printermap-to-gutenprint-xml" "lou_checktable" "sln" "xfs_copy" "hpijs" "idiag-socket-details" "zcat" "foomatic-printjob" "tri-unfilled-smooth" "gpg" "rtcwake" "mtpfs" "pip3" "ncursesw6-config" "fpcalc" "ssh-agent" "mkexfatfs" "ecryptfs-stat" "systemd-firstboot" "ldbmodify" "gcab" "systemd-resolve" "hp-levels" "samba-regedit" "fc-query" "gpg-zip" "linux64" "cache_dump" "dfbdump" "bash" "sqlite3" "mib2c" "colormgr" "gtk-query-settings" "renice" "nl-cls-add" "emacs" "xfce4-sensors" "objcopy" "nameif" "corrupt_mpeg2" "msgcat" "htop" "glilypond" "quad-unfilled-stipple" "threaded-example" "nf-exp-list" "grub-glue-efi" "lsinitcpio" "bzz" "nfs-cp" "hwinfo" "losetup" "xfwm4-settings" "xzdiff" "vao_demo" "cd-it8" "tiffcmp" "grap2graph" "mhwd-kernel" "fdisk" "dumpe2fs" "fsck.exfat" "snmpstatus" "mbimcli" "samplers" "nl-addr-add" "dlist-edgeflag" "svnbench" "gif2rgb" "hexchat" "gpgsm" "tri-orig" "talkd" "multictx32" "arecord" "gcc-nm" "sktest" "systemd-detect-virt" "gpasswd" "dbus-monitor" "false" "rpc.mountd" "prtstat" "linestrip" "m17n-edit" "csepdjvu" "hb-ot-shape-closure" "line-userclip" "xset" "hostid" "lvdisplay" "apropos" "shtest" "zenity" "mhwd" "faad" "resizepart" "tri-viewport" "copypix" "tri-unfilled-tri-lit" "newgidmap" "rpc.nfsd" "tri-z-clip" "qmicli" "veritysetup" "hp-devicesettings" "lprsetup.sh" "timeout" "rmic" "python3-config" "get_driver" "aafire" "tri-tex" "gapplication" "y4mcolorbars" "dvconnect" "idevicedebugserverproxy" "talk" "tri-cull-both" "npth-config" "lpr" "groupmod" "panelctl" "xfce4-settings-manager" "createwin" "pdffonts" "idevicebackup2" "mesg" "eventlogadm" "xdg-su" "glewinfo" "xdg-user-dirs-update" "glsync" "zvbi-chains" "gnutls-serv" "vte-2.91" "pon" "chfn" "ecryptfs-add-passphrase" "symcryptrun" "devlink" "lsusb.py" "ipcs" "hpftodit" "tri-lit" "otflist" "systemd-socket-activate" "rediff" "pkgdata" "xfwm4-workspace-settings" "kinit" "psfxtable" "groups" "yuvcorrect" "avahi-resolve-host-name" "desktop-file-install" "afmtodit" "lsusb" "wildmidi" "vbo" "jack_bufsize" "link" "gvfs-cat" "cracklib-check" "xrotfontdemo" "snmpusm" "grolj4" "pkexec" "m17n-conv" "jack_unload" "mkfontdir" "icuinfo" "pcap-config" "roff2ps" "gvfs-rm" "alsactl" "iptables-compat" "xfce4-mime-settings" "poly-unfilled" "pcf2vpnc" "systemd-umount" "audacious" "gst-inspect-1.0" "sclient" "orcus-css-dump" "key2raw" "fgconsole" "db_printlog" "wpa_cli" "thin_delta" "ghc" "clear-fbo-tex" "gimp" "tessdemo" "idevice_id" "chsh" "inotifywait" "lessecho" "pkttyagent" "tiff2ps" "glxinfo32" "fc-cat" "yuvscaler" "objdump" "nl-fib-lookup" "linktest" "nl-qdisc-add" "fix-qdf" "bc" "gtk-query-immodules-3.0" "genmipmap" "exrmaketiled" "xzless" "df" "basename" "inotifywatch" "lzegrep" "showstat4" "icupkg" "speexdec" "xfce4-popup-notes" "xjc" "rlogind" "jack_simple_session_client" "thunderbird" "sndfile-info" "iptables-compat-restore" "gtbl" "foomatic-ppd-to-xml" "jar" "v86d" "ldns-dpa" "arbfslight" "ntfscat" "idevicediagnostics" "ldns-nsec3-hash" "pdf2ps" "glxinfo" "halt" "whereis" "vgimportclone" "hp-scan" "imgcmp" "pacman-mirrors" "analyseplugin" "xfs_admin" "lprm" "file" "p11-kit" "xfs_quota" "networkctl" "gss-server" "overlay32" "msm_notifier" "uic-qt5" "i386" "pwconv" "snmpd" "roff2pdf" "era_check" "pamac-manager" "free" "dvb-format-convert" "xfce4-appfinder" "wc" "tdbbackup" "arptables-compat" "tdbtool" "hexchat-text" "gnutls-cli-debug" "sexp-conv" "imlib2_colorspace" "mount.lowntfs-3g" "mtp-connect" "pinentry-qt" "xfce4-popup-whiskermenu" "ldns-keygen" "lzfgrep" "glxswapcontrol" "checkupdates" "nl-pktloc-lookup" "unlz4" "nm-online" "pilfont" "pphs" "zvbi-atsc-cc" "nscd" "mhwd-fb" "gdbm_dump" "quad-tex-2d" "tri-blend-max" "hunspell" "mountpoint" "gensprep" "wmf2x" "twoside" "systemd-notify" "hp-linefeedcal" "git-clang-format" "img2webp" "gentest" "wpa_supplicant" "strip" "grn" "drawoverhead" "sharesec" "ip6tables-save" "pyvenv" "enchant" "xzcat" "tracepath" "quad-tex-sub" "jpeg2yuv" "ppdpo" "zip" "ksba-config" "tunefs.reiserfs" "uniq" "mkntfs" "nvlc" "gpgme-tool" "hp-makeuri" "readpixels" "haveged" "btrfs-debug-tree" "scriptreplay" "addftinfo" "cd-paranoia" "cpaldjvu" "getconf" "chmod" "orcus-yaml" "chmem" "yuvmedianfilter" "ultrabayd" "mount" "udevadm" "ipptool" "visualinfo" "egltri_x11" "idevicecrashreport" "tri-cull" "gtk3-icon-browser" "pcprofiledump" "nmtui-edit" "clear-color" "wavpack" "mapscrn" "quad-offset-units" "blueman-manager" "fsfreeze" "cal" "drawrange" "escapesrc" "xfwm4" "cups-config" "fsck.overlay" "pildriver" "pyuic5" "fixproc" "accessdb" "lvextend" "iptunnel" "display-buttons" "intltool-merge" "automake" "jack_evmon" "nfsstat" "vss2text" "pilconvert" "snmptrap" "tri-alpha" "enhancer" "mkfs.msdos" "vp-tri-imm" "dlist_test" "mwaw2csv" "smbstatus" "mvxattr" "asn1Parser" "jpegicc" "tex-quads" "xslt-config" "iso-read" "sndfile-convert" "ifcfg" "cd-fix-profile" "dconf" "dlist-flat-tri" "quad-offset-factor" "xrandr" "gvfs-set-attribute" "hp-config_usb_printer" "giffix" "tri-blend-sub" "encodedv" "vp-array-int" "ispellaff2myspell" "vpnc" "makeconv" "fftw-wisdom-to-conf" "update-desktop-database" "sha1sum" "e4crypt" "luac" "tri-unfilled-userclip-stip" "c_rehash" "update-pciids" "trietool" "cupsfilter" "hspec-discover" "quad" "grpconv" "drill" "rtmpgw" "mtp-folders" "engine" "applyplugin" "pk-example-frobnicate" "psl" "exo-open" "setpriv" "pdftexi2dvi" "vp-array-hf" "blueman-sendto" "trifan-flat" "mtp-getfile" "nspr-config" "cvlc" "key2text" "png2yuv" "quad-flat" "lzgrep" "snmpbulkwalk" "faac" "ownership" "gettext.sh" "mknod" "crlutil" "foomatic-addpjloptions" "gpgtar" "cwebp" "gifinto" "vgextend" "ts_test_mt" "sha256sum" "hp-wificonfig" "refer" "look" "lzmainfo" "wpd2text" "drawpix" "jcmd" "mkfs.cramfs" "db_checkpoint" "showconsolefont" "sbcdec" "which" "printenv" "shred" "mkinitcpio" "gdbus" "tar" "gnome-keyring" "linux-boot-prober" "line" "vpxenc" "ftp" "tri-edgeflag-array" "alsa_out" "xauth" "nl-route-list" "autoscan" "kdestroy" "out123" "exrmakepreview" "compile_et" "resolvconf" "makehrtf" "krb5-config" "desktop-file-edit" "y4mtoyuv" "gresource" "grub-macbless" "nl-link-name2ifindex" "zvbi-ntsc-cc" "regtree" "pasuspender" "tabs" "fb_config" "pax11publish" "setsid" "gdk-pixbuf-query-loaders" "dc" "hp-setup" "pstree.x11" "blueman-services" "qlalr" "hunzip" "hp-printsettings" "xkill" "poly" "glslstateschange" "dfbshow" "jmap" "tiffdither" "gr2fonttest" "reflect" "gvfs-move" "uncompress" "glxdemo32" "gdk-pixbuf-pixdata" "dbus-test-tool" "mtp-detect" "fftwf-wisdom" "jfs_mkfs" "tune2fs" "fsck.cramfs" "x86_64" "gst-discoverer-1.0" "orcus-json" "xfs_estimate" "check_hd" "dirname" "mtp-tracks" "clang-format" "tri-fog" "gsf" "xfs_bmap" "xfdesktop" "json-glib-format" "ktutil" "desktoptojson" "fs-tri" "pacman-optimize" "pa-applet" "cupsaddsmb" "parecord" "foomatic-fix-xml" "vgcreate" "run-parts" "msginit" "gsf-office-thumbnailer" "ssh-keygen" "ppdhtml" "script" "systemd-run" "teamd" "info" "col" "lsattr" "blueman-report" "mtp-delfile" "aconnect" "dfbpenmount" "import" "prlimit" "opj_compress" "iptables-restore" "appstream-compose" "katedec" "column" "sudoedit" "dmstats" "ps2ps" "ntp-wait" "nl-neigh-delete" "gpgv" "wpg2svg" "point-param" "getpcaps" "ghci" "groupdel" "ldns-testns" "tri-tex-3d" "ecryptfs-migrate-home" "qv4l2" "autoheader" "msgcomm" "btrfstune" "dir" "zsh-5.4.2" "wks2csv" "tri-z" "glib-genmarshal" "md5sum" "top" "udiskie" "nf-exp-delete" "xfce4-popup-windowmenu" "gst-device-monitor-1.0" "unrar" "y4mhist" "thin_trim" "7za" "mhwd-gpu" "showwal" "orcus-xls-xml" "sh" "Magick++-config" "qmi-network" "faillog" "zdump" "apr-1-config" "ranlib" "agetty" "net-snmp-config" "foomatic-rip" "texindex" "netstat" "offset32" "jfs_debugfs" "syncqt.pl" "systemd-sysusers" "chacl" "snmp-bridge-mib" "vgchange" "rpcdebug" "ModemManager" "x86_64-pc-linux-gnu-c++" "manywin32" "testparm" "haddock-ghc-8.2.1" "keytool" "lvrename" "cryptsetup-reencrypt" "gearbox" "fplight" "pinky" "pgrep" "opj_decompress" "cubemap" "git-cvsserver" "taglib-config" "ntfsundelete" "ldattach" "isaset" "newuidmap" "point" "vsraytrace" "texenv" "reboot" "powertop" "umount.udisks2" "hp-logcapture" "nm-applet" "glxcontexts" "colcrt" "lame" "nmtui-hostname" "fsck" "touchpad-edge-detector" "jstatd" "mount.ecryptfs_private" "lzmadec" "glxheads32" "pip3.6" "thin_repair" "jfs_fscklog" "dvb-fe-tool" "idle3" "visudo" "gcov" "orcus-csv" "paltex" "clang-check" "qt5ct" "volume_key" "btrfs-zero-log" "gencfu" "roff2x" "bison" "mugshot" "qdbuscpp2xml-qt5" "ir-ctl" "c44" "tri-z-9" "teamdctl" "sload.f2fs" "paplay" "mpg123" "sm-notify" "tload" "vbo-tri" "pluginviewer" "linkicc" "giftool" "tunnel2" "v4l2-sysfs-path" "tri-userclip" "readlink" "textures" "pacsearch" "munch" "fragcoord" "tri-fp" "stund" "split" "ijs-config" "crontab" "systemd-ask-password" "webpng" "pdfimages" "mcookie" "drawelements" "inxi" "efibootmgr" "mklost+found" "dlist-recursive-call" "sha384sum" "certtool" "wps2html" "clang-cl" "rpcgen" "tri-tri" "mpeg2dec" "xgettext" "2to3" "rfkill" "ppmtoy4m" "svnsync" "unlzma" "pvdisplay" "lvconvert" "x265" "head" "site_perl/" "imlib2_grab" "xfs_metadump" "pdftops" "mkfs.jfs" "du" "ss" "pamac-clean-cache" "linestrip-stipple-wide" "wmf2svg" "chgpasswd" "samba" "exiv2" "eglinfo" "gawk" "line-cull" "nl-route-get" "who" "roff2dvi" "clear-fbo-scissor" "cd-drive" "systemd-machine-id-setup" "makepkg" "glxdemo" "lsb_release" "oLschema2ldif" "mtp-albumart" "osdemo" "exrmultiview" "nl-neigh-add" "exrenvmap" "pcretest" "any2djvu" "geom-wide-lines" "pal2rgb" "chpasswd" "tz_convert" "msgmerge" "showkey" "mwaw2html" "pre-grohtml" "systemd-cgls" "pdftohtml" "lvchange" "vbo-drawarrays-2101010" "xfs_rtcp" "unpack200" "zless" "gksu" "vbo-drawrange" "gtk-launch" "wbinfo" "exo-csource" "hp-colorcal" "dfbinput" "lpadmin" "sim_server" "texture_from_pixmap" "pkg-config" "tristrip-clip" "ecryptfs-recover-private" "wks2raw" "vgreduce" "lvremove" "tri-edgeflag-pv" "gksudo" "diff" "write" "watchgnupg" "openssl" "nice" "alsamixer" "cancel" "xeglthreads" "groupadd" "cisco-decrypt" "rnano" "roff2text" "ecryptfs-umount-private" "pacsort" "rmiregistry" "projtex" "tiffcp" "trifan" "scan-build" "lowriter" "pvresize" "createfp" "cacademo" "pvmove" "bssh" "dlist-edgeflag-dangling" "pnmtoy4m" "fsck.reiserfs" "vgexport" "tbl" "dlist-begin-call-end" "line-clip" "yes" "run-on-ac" "ypipe" "xfce4-clipman" "toyball" "eqn2graph" "viewer" "mtrace" "gpg-error" "celtdec" "snmptable" "idectl" "glxheads" "json2yaml" "rmid" "cmx2xhtml" "iptables-save" "mkfs.ext4" "alsaucm" "utmpdump" "ddjvu" "nstat" "fixparts" "pwd" "autoreconf" "sum" "cmp" "gperl" "mp4track" "gimptool" "svnadmin" "ts_harvest" "purple-remote" "b2sum" "cec-compliance" "mkfs.ext2" "pk12util" "listplugins" "run-on-bat" "lavtc.sh" "ecryptfs-setup-private" "catman" "tlp-pcilist" "gufw-pkexec" "systemd-path" "expiry" "avahi-autoipd" "ecryptfs-manager" "rtacct" "db_recover" "svnrdump" "lineloop-elts" "updpkgsums" "echo" "tipc" "lvmetad" "cmx2raw" "test" "asn1Coding" "openal-info" "hp-fab" "setcifsacl" "pydoc2" "es2_info" "notify-send" "mount.nfs" "setarch" "firefox" "gsettings-schema-convert" "avahi-discover" "sbcinfo" "nl-class-delete" "dlist-tri-flat-tri" "pgmtoy4m" "jack_session_notify" "grub-mkrescue" "gusbcmd" "xfburn" "orcus-xml-dump" "pcsc-spy" "blueman-assistant" "lsdiff" "gdbm_load" "paclog-pkglist" "killall" "gtester" "grub-editenv" "vp-tri-tex" "tristrip" "nl-link-release" "dumpkeys" "hp-systray" "zretune" "sdp-example" "ip6tables-compat-restore" "pamac-system-daemon" "git-receive-pack" "pcscd" "arecordmidi" "shutdown" "srptool" "libtool" "bridge" "tri-repeat" "db_replicate" "wmf2fig" "nl-list-sockets" "grpunconv" "egrep" "su" "xflock4" "ts_test" "tri-clip" "p11tool" "teamnl" "gvfs-less" "modinfo" "xfs_logprint" "dfbinspector" "fallocate" "jack_simple_client" "lav2yuv" "ps2pdf12" "tri-array-interleaved" "lomath" "flex++" "aseqnet" "idris-codegen-c" "ixion-sorter" "ip6tables-translate" "zmf2raw" "pdftotext" "pivot_root" "ldns-walk" "exrheader" "xzgrep" "readpix" "djvudump" "runghc-8.2.1" "icc2ps" "python-config" "chgrp" "osdemo3232" "vbo-drawarrays" "purple-client-example" "orc-bugreport" "msgunfmt" "jack_impulse_grabber" "iceauth" "lexgrog" "fixqt4headers.pl" "mandb" "wsimport" "colrm" "ssh-add" "xfce4-session-settings" "usermod" "start-pulseaudio-x11" "tiffinfo" "mount.nfs4" "tiff2bw" "symkeyutil" "libotf-config" "peglgears" "nl-link-list" "djvused" "sip" "combinediff" "mv" "gdcmpgif" "gio" "ppm2tiff" "telnetd" "clang-cpp" "lvmdiskscan" "xfce4-popup-clipman" "bsdcpio" "espdiff" "jpgicc" "tiffdiff" "voikkospell" "identify" "rarpd" "rtmpsuck" "libwmf-fontmap" "prezip" "texi2dvi" "fc-scan" "xzmore" "zgrep" "lz4cat" "gvfs-rename" "pwdx" "debugfs.reiserfs" "dmesg" "ntfs-3g.probe" "setleds" "wnckprop" "gif2webp" "gpg-agent" "ctrlaltdel" "pppoe-discovery" "plugctl" "poly-flat-clip" "sfdisk" "ts_finddev" "cpufreq-bench_plot.sh" "imlib2-config" "smbspool" "pacscripts" "nl" "interdiff" "globaltime" "chcon" "isadump" "purple-url-handler" "abw2text" "voodooplay_client" "es2tri" "sharedtex_mt32" "point-wide" "zdiff" "vgs" "tri-clear" "cache_restore" "ipcmk" "ray" "gnome-help" "mmc-tool" "fuser" "certutil" "snmpwalk" "djvutoxml" "servertool" "snmpinform" "systemd-delta" "guile-tools" "cd-info" "clockdiff" "jack_lsp" "lspci" "gencat" "rtkitctl" "systemctl" "extract_a52" "aalib-config" "ts_print" "esdcompat" "gennorm2" "clear-fbo" "dfbinfo" "vgsplit" "djvutxt" "autopoint" "clear" "pygtk-demo" "vlock" "bsdcat" "grub-mkfont" "tickadj" "yuv4mpeg" "wrjpgcom" "ntptime" "unix_chkpwd" "terrain" "linestrip-flat-stipple" "git-upload-pack" "ntfsrecover" "cx18-ctl" "pacat" "yuvkineco" "cairo-trace" "zipcloak" "genl-ctrl-list" "chroot" "mktemp" "fsck.xfs" "tset" "pccardctl" "painter" "xfce4-terminal" "nf-ct-add" "glib-gettextize" "get_module" "convert_hd" "vert-tex" "delpart" "qdbuscpp2xml" "avahi-browse-domains" "poff" "hspell" "mp2enc" "pidgin" "iproxy" "grub-ofpathname" "convert-mans" "numbers2text" "grub-mklayout" "xdg-icon-resource" "mp4info" "pinentry-gnome3" "jack_connect" "pamon" "pic" "f2fstat" "masktest" "menulibre" "vp-unfilled" "tkmib" "mtp-albums" "sndfile-resample" "ldns-keyfetcher" "id" "shadow_sampler" "lou_maketable.d/" "vss2xhtml" "efivar-tester" "mount.exfat-fuse" "pvck" "jack_midi_dump" "tlp" "nettle-hash" "pvremove" "pactl" "nfs-cat" "dosfslabel" "dbus-uuidgen" "c++" "tc" "mdmon" "iw" "haddock" "openvt" "swapbuffers" "7z" "catfish" "y4munsharp" "loffice" "ldns-resolver" "xzegrep" "slattach" "xfce4-pm-helper" "sotruss" "splitdiff" "serialver" "ps2pdf14" "lavinfo" "imlib2_test" "gsettings" "svnserve" "jack_transport" "hp-info" "ntfsls" "redland-config" "ghc-pkg-8.2.1" "aainfo" "eglgears_x11" "gst-play-1.0" "geqn" "foomatic-nonumericalids" "biosdecode" "exfatfsck" "points" "line-userclip-clip" "blueman-adapters" "cdr2text" "prezip-bin" "qrencode" "x86_64-pc-linux-gnu-gcc-ranlib" "namei" "xfs_mkfile" "unmunch" "pavucontrol" "avahi-publish-service" "nano" "yuvfps" "umount.ecryptfs_private" "trietool-0.2" "genl" "smbcacls" "xfconf-query" "foomatic-ppdfile" "debugreiserfs" "vpnc-disconnect" "desktop-file-validate" "lvm" "loweb" "kadmin" "orcus-detect" "pacdiff" "jack_showtime" "tri-tex-stipple" "mkfs.btrfs" "repo-add" "grub-probe" "guile" "rlwrap" "get_device" "dd" "gifbuild" "unzip" "thresholder" "mev" "e2label" "ldns-gen-zone" "dumpiso" "testpkg" "quad-unfilled-clip" "fakeroot" "lp_solve" "nl-neightbl-list" "yuvdenoise" "snmptranslate" "addpart" "vpddecode" "m4" "mkdir" "yelp" "localedef" "lvs" "mkdfiff" "rev" "blkzone" "snmpconf" "exrstdattr" "y4mtopnm" "nfsidmap" "ntfsclone" "setcap" "xfce4-kiosk-query" "getkeycodes" "ldbsearch" "pbdemo" "faked" "animate" "lpq" "setfattr" "sensors-conf-convert" "rankmirrors" "pwck" "arpd" "protoc" "numfmt" "passwd" "schemagen" "exo-desktop-item-edit" "pactree" "orcus-xml" "idevicescreenshot" "arbocclude2" "gpg-error-config" "zipsplit" "thin_restore" "find" "gio-querymodules-32" "cjpeg" "gslp" "ctags.emacs" "blkdeactivate" "svnversion" "partx" "db_dump" "nss-config" "lpc" "xfpm-power-backlight-helper" "mkfontscale" "metaflac" "mousepad" "secret-tool" "cacafire" "shlibsign" "ldns-chaos" "convert" "logrotate" "gcc-ranlib" "glxgears" "clang-5.0" "zcmp" "updatedb" "ssh-keyscan" "rpc.idmapd" "nettle-pbkdf2" "cacaclock" "grub-mkpasswd-pbkdf2" "identity" "trifan-flat-unfilled-clip" "usbmuxd" "hp-doctor" "VBoxClient-all" "tri-mask-tri" "dlist-mat-tri" "bounce" "renormal" "gettextize" "quadstrip" "pdf2dsc" "sdl-config" "xfwm4-tweaks-settings" "svnfsfs" "e2undo" "line-flat" "mp4art" "y4minterlace" "gencnval" "xfs_mdrestore" "mwaw2text" "unxz" "texcyl" "ghc-pkg" "lein" "snmpcheck" "fc-cache" "alsa_delay" "findsmb" "btrfs-convert" "vgimport" "lnstat" "ar" "rshd" "lou_trace" "recode-sr-latin" "hostnamectl" "less" "yuvcorrect_tune" "ipcrm" "badblocks" "ffmpegthumbnailer" "gtk3-demo" "makepkg-template" "cupsctl" "hp-diagnose_plugin" "xfsettingsd" "intltool-update" "gvfs-trash" "svn" "bsdtar" "voodooplay" "vbo-drawelements" "ffserver" "v4l2-compliance" "tiffset" "xfs_freeze" "uuserver" "x86_64-pc-linux-gnu-g++" "dbus-launch" "comm" "sdl2-config" "agentxtrap" "kpropd" "ls" "ptx" "resize2fs" "pkill" "djvuserve" "ldns-signzone" "tri-multitex-vbo" "true" "cfdisk" "tri-square" "xfs_repair" "bvnc" "diff3" "intltool-extract" "foomatic-perl-data" "grub-syslinux2cfg" "db_archive" "ntfstruncate" "pinentry-curses" "linux32" "btrfsck" "ntfscp" "easy_install" "grub-mkrelpath" "xzdec" "db_load" "tiff2pdf" "gimp-console-2.8" "quad-degenerate" "factor" "ts_verify" "e4defrag" "lou_debug" "flac" "ecryptfs-mount-private" "quad-clip-nearplane" "libglade-convert" "flock" "aplaymidi" "fincore" "mii-tool" "glib-mkenums" "rpc.gssd" "logger" "jack_transport_client" "tail" "xdg-desktop-menu" "libinput" "ssh" "quads" "fbo_firecube" "cupsaccept" "package-query" "gifecho" "grub-script-check" "gxditview" "m17n-db" "mp4extract" "imlib2_bumpmap" "jackd" "imlib2_view" "tri-fbo" "affixcompress" "multispell" "testlibraw" "pydoc3.6" "vp-clip" "gettext" "mtp-newplaylist" "zsoelim" "swapon" "svlc" "drawarrays" "jfs_tune" "git-upload-archive" "xml2-config" "conjure" "nfsiostat" "sim_client" "dnsdomainname" "mkrfc2734" "sndfile-play" "precat" "rsync" "pages2raw" "y4mivtc" "flipdiff" "ssh-copy-id" "paperconfig" "pacdiffviewer" "stunbdc" "udiskie-info" "yaourt" "xmodmap" "pkgdelta" "protoc-c" "grub-mkimage" "quad-offset-unfilled" "cdparanoia" "nl-util-addr" "intltoolize" "mouse-test" "cups-browsed" "runcon" "compare" "rpc.statd" "teximage" "dircolors" "ebtables-compat" "tri-unfilled" "djpeg" "blkmapd" "wvtag" "gdk-pixbuf-csource" "lastb" "key2xhtml" "pngtogd2" "xdg-email" "gvfs-save" "sha224sum" "canberra-gtk-play" "extract_mpeg2" "gvfs-copy" "loadkeys" "gd2copypal" "rtstat" "vercmp" "avahi-resolve-address" "VBoxControl" "mkfs.exfat" "filefrag" "java" "dfbscreen" "fbotexture" "troff" "gloss" "snmpbulkget" "icclink" "asn1Decoding" "2to3-3.6" "udiskie-mount" "mount.ntfs" "indxbib" "composite" "regshell" "cryptsetup" "tri-query" "systemd-stdio-bridge" "jack_wait" "orcus-ods" "otftobdf" "dlist-dangling" "jasper" "spectex" "dinoshade" "grub-bios-setup" "brick" "runghc" "djvmcvt" "bond2team" "ffprobe" "kadmind" "dumpexfat" "uuclient" "xmlcatalog" "lightdm" "db_hotbackup" "xsltproc" "texi2pdf" "manywin" "mib2c-update" "locktest" "stty" "pkcheck" "clear-repeat" "gsnd" "net" "alsoft-config" "libwacom-list-local-devices" "memusagestat" "orcc" "chem" "yuvinactive" "lightdm-gtk-greeter" "kateenc" "nfbpf_compile" "zvbid" "json_verify" "fsck.jfs" "hp-pkservice" "pkcs1-conv" "unlink" "systemd-cat" "lvmconfig" "sub-tex" "gpartedbin" "envsubst" "xfrun4" "qdbusxml2cpp" "getcap" "join" "vgmerge" "tiffsplit" "draw2arrays" "ecryptfs-unwrap-passphrase" "deallocvt" "mkReadme" "ps2pdfwr" "regpatch" "long-fixed-func" "funzip" "netcap" "getopt" "lua" "ipmaddr" "gpg-connect-agent" "nl-link-set" "ldnsd" "ts_uinput" "Xorg" "orbd" "pdfunite" "lex" "pointcoord" "hsc2hs" "otfdump" "xfce4-about" "v4l2-ctl" "perl" "snmpset" "request-key" "untoast" "wpg2raw" "ldd" "pinentry-tty" "zipgrep" "cd-create-profile" "multictx" "localectl" "setpci" "uuidd" "gsx" "catchsegv" "anytovcd.sh" "kvno" "insmod" "lzcmp" "libinput-debug-events" "getcifsacl" "wincopy" "unexpand" "spriteblast" "mtp-playlists" "gconftool-2" "line-userclip-nop" "hp-testpage" "grub-kbdcomp" "ldns-version" "extract_dca" "dm-tool" "pam_timestamp_check" "gcov-tool" "pub2raw" "foomatic-datafile" "pcregrep" "pulseaudio" "c99" "dc1394_reset_bus" "sha512sum" "loginctl" "glxgears_pixmap" "iconv" "avahi-set-host-name" "cdrskin" "lscpu" "lou_maketable" "dbus-cleanup-sockets" "routef" "logname" "openconnect" "tri-stencil" "touch" "sleep" "gvfs-open" "nl-classid-lookup" "pdfseparate" "fill" "rm" "multitex" "lzdiff" "lightdm-gtk-greeter-settings" "groff" "vp-tri-cb-pos" "bump" "montage" "cec-follower" "eglkms" "xtables-multi" "raw" "clear-scissor" "ideviceimagemounter" "smbd" "emacs-25.3" "clang" "ntfslabel" "ldns-verify-zone" "pngfix" "gimp-2.8" "expand" "syncqt.pl-qt5" "db_tuner" "mkswap" "systemd-analyze" "glib-compile-resources" "pamac-updater" "point-wide-smooth" "nl-addr-delete" "tifficc" "tdbdump" "multinoise" "annotate" "smbcquotas" "galculator" "fftwl-wisdom" "cddb_query" "recountdiff" "pstree" "cmis-client" "pdfroff" "gitk" "c89" "cupstestppd" "dfbmaster" "voodooplay_server" "gimp-console" "libpng16-config" "nologin" "stdbuf" "xdg-open" "gtk3-widget-factory" "dwp" "font2c" "zlib-flate" "net-snmp-cert" "key.dns_resolver" "gst-launch-1.0" "dbwrap_tool" "enchant-lsmod" "fc-match" "lav2avi.sh" "pointblast" "lz4" "qlalr-qt5" "vbo-noninterleaved" "iptables-xml" "javadoc" "noise" "runlevel" "core_perl/" "dlist-degenerate" "lsipc" "ifnames" "xinit" "xfce4-display-settings" "wps2text" "sendiso" "clear-undefined" "arping" "gsraytrace" "vgremove" "pwunconv" "gst-typefind-1.0" "rpcclient" "pdfsig" "gphoto2-config" "dfbdumpinput" "journalctl" "lou_tableinfo" "idevicepair" "dbus-daemon" "gparted" "thunar-volman-settings" "ldns-config" "mail" "whiptail" "gnutls-cli" "bacman" "nsenter" "python2" "isosize" "grub-install" "gencmn" "mmroff" "gio-querymodules" "multiblend.flt" "ctstat" "wipefs" "wftopfa" "stream" "grub-fstest" "profiles" "giftext" "vgrename" "snmptrapd" "fsck.fat" "glxsnoop32" "idevicenotificationproxy" "users" "x86_64-pc-linux-gnu-gcc-7.2.0" "djvuxmlparser" "unicode_stop" "bdftruncate" "thunar" "gropdf" "dfblayer" "locale-gen" "foomatic-getpjloptions" "pbdemo32" "light-locker-command" "python3" "gvfs-mount" "bzgrep" "ntpdate" "transist.flt" "ufw" "djvups" "exportfs" "tri-flat" "tificc" "cupstestdsc" "texdemo1" "manjaro-documentation" "install-info" "gst-stats-1.0" "sudo" "djvuextract" "accept" "purple-send" "gimptool-2.0" "sndfile-metadata-set" "ip6tables-restore" "rtmpsrv" "xfs_growfs" "engrampa" "k5srvutil" "rapper" "xzcmp" "hb-view" "ecryptfs-verify" "ip" "glxpixmap" "json_reformat" "depmod" "arbfplight" "fsck.ext2" "dmevent_tool" "mpg123-id3dump" "webpmux" "ldns-zsplit" "xfont" "vwebp" "foomatic-compiledb" "hp-firmware" "ip6tables-restore-translate" "VBoxClient" "sndfile-deinterleave" "MagickCore-config" "mountstats" "archlinux-java" "qvlc" "[" "katalyzer" "jack_rec" "fsraytrace" "pulseaudio-ctl" "quad-clip" "ip6tables-compat" "dissolve" "blueman-applet" "vlc" "sharedtex_mt" "gcr-viewer" "xfce4-settings-editor" "zipnote" "tftpd" "wincopy32" "realpath" "gvfs-monitor-dir" "simplex-noise" "lzma" "cacaplay" "glinfo" "dvbv5-daemon" "nm-connection-editor" "samba_upgradedns" "makealias" "sed" "ps2pdf13" "unopkg" "tunnel" "gpgconf" "man" "lou_compare" "ldns-read-zone" "smbtree" "mp4tags" "player" "dbus-run-session" "lobase" "jack_property" "foomatic-preferred-driver" "wall" "sndfile-interleave" "foomatic-extract-text" "gconfpkg" "xargs" "giftogd2" "wayland-scanner" "orcus-zip-dump" "lvresize" "ntfsfix" "pilfile" "curl-config" "vp-line-clip" "autom4te" "qdbusxml2cpp-qt5" "db_deadlock" "gzexe" "zsh" "sensors-detect" "gs" "guild" "sserver" "pptp" "gdparttopng" "verve-focus" "vp-tri-cb" "wwan" "bashbug" "avahi-resolve" "qpdfview" "stat" "cleanupdelta" "mtp-hotplug" "parec" "c-index-test" "psicc" "thin_rmap" "igawk" "quad-tex-alpha" "hpack" "thin_metadata_size" "pcre-config" "unshare" "bitmap" "run-with-aspell" "bootctl" "gnome-keyring-daemon" "timedatectl" "jack_latent_client" "mtp-getplaylist" "tri-unfilled-edgeflag" "rsh" "pyrcc5" "gtk3-demo-application" "m17n-config" "env" "tjbench" "speaker-test" "python3.6m-config" "X" "editdiff" "resize_reiserfs" "soffice" "iecset" "unicode_start" "y4mstabilizer" "jack_iodelay" "xfdesktop-settings" "neon-config" "cache_writeback" "routel" "jack_alias" "cairo-sphinx" "showjournal" "snmpdelta" "mount.ntfs-3g" "ldns-notify" "idevicename" "lineloop-clip" "tri-blend" "moc" "pages2text" "e2freefrag" "python3.6m" "lav2mpeg" "ipers" "idevicebackup" "pinentry-emacs" "ts_print_raw" "createfontdatachunk" "gendict" "event_rpcgen.py" "nmcli" "teapot" "xrdb" "lz4c" "lodbias" "rcc-qt5" "pamac-user-daemon" "jfs_logdump" "clearspd" "padsp" "cdda-player" "glsync32" "hp-faxsetup" "grub-mkconfig" "wiper.sh" "pfbtopfa" "tri-blend-min" "croco-0.6-config" "ldbdel" "nm" "kpasswd" "stack" "runhaskell" "preunzip" "jstack" "gltestperf" "mandelbrot" "texaaline" "db_verify" "ldconfig" "gpm-root" "shuf" "driverless" "idevicesyslog" "tiffdump" "tri-logicop-xor" "localc" "tdbrestore" "traptoemail" "kdb5_util" "imlib2_show" "ldns-compare-zones" "tri-2101010-dlist" "mount.vboxsf" "display" "trispd" "crond" "infotocap" "zmf2svg" "morph3d" "hp-makecopies" "gdlib-config" "vp-tri-swap" "mkfs.f2fs" "gdialog" "pmd2raw" "js24-config" "lowntfs-3g" "fsadm" "pathchk" "hspell-i" "gsdj" "parse.f2fs" "kdb5_ldap_util" "ntlm_auth" "lvreduce" "foomatic-replaceoldprinterids" "sync" "pack200" "poweroff" "regdbdump" "osdemo32" "gtk-encode-symbolic-svg" "djvumake" "modprobe" "otfview" "ldns-rrsig" "convolutions" "zforce" "trifan-flat-clip" "glxgears_pixmap32" "chage" "start-statd" "filterdiff" "lpstat" "samba_dnsupdate" "msgattrib" "mkfs.bfs" "mount.exfat" "vgdisplay" "manjaro-settings-manager" "msggrep" "fsck.ext4" "update-leap" "neqn" "tri-unfilled-userclip" "bzip2recover" "mjpeg_simd_helper" "exrmultipart" "vgconvert" "ghci-8.2.1" "celtenc" "locate" "xtables-compat-multi" "nl-neigh-list" "mtp-sendfile" "dehtmldiff" "pxa3xx_dump" "tiffcrop" "proxy" "post-grohtml" "showdb" "dubdv" "ucs2any" "jack_freewheel" "gd2togif" "idris-codegen-node" "pdata_tools" "sharedtex32" "rvlc" "thunar-volman" "hpc" "tlp-usblist" "ps2pdf" "json-glib-validate" "avahi-dnsconfd" "chromedriver" "icu-config" "idle3.6" "rpcbind" "lavtrans" "plugreport" "pslog" "grub-sparc64-setup" "dfbg" "rdma" "shape" "sftp" "rsvg-convert" "wvunpack" "y4mblack" "mdadm" "fire" "aasavefont" "quad-clip-all-vertices" "ecryptfs-rewrap-passphrase" "hb-shape" "fsck.vfat" "login" "lineloop" "tri-stipple" "xfs_spaceman" "nroff" "ffmpeg" "aseqdump" "kproplog" "lvmconf" "size" "qt-faststart" "samba_kcc" "python2.7" "mount.ecryptfs" "dcadec" "tri" "gconf-merge-schema" "jdb" "numbers2csv" "tristrip-flat" "xfce4-notifyd-config" "rpcinfo" "wsgen" "vdir" "xfs_db" "git" "slabtop" "sdiff" "ff-theme-util" "lvmsadc" "snmpvacm" "mount.fuse" "linestrip-stipple" "ts_calibrate" "nf-log" "iptables-compat-save" "getent" "cdr2xhtml" "era_dump" "idris-codegen-javascript" "plog" "fax2ps" "hp-uninstall" "ldns-mx" "mkfs.ext3" "hp-probe" "tiff2rgba" "preconv" "findssl.sh" "showmount" "pdfinfo" "ps" "chown" "kacpimon" "krb5kdc" "mkbootimg" "crda" "glthreads" "coredumpctl" "saslpasswd2" "gtk-query-immodules-2.0" "automake-1.15" "gksu-properties" "glxgears_fbconfig" "gdbmtool" "od" "xfce4-power-manager-settings" "xfs_fsr" "sprof" "dwebp" "aatest" "g++" "bd_info" "addr2line" "unzipsfx" "gconf-merge-tree" "gvfs-mkdir" "ecryptfs-find" "mwaw2svg" "gunzip" "clang-rename" "setterm" "mtp-sendtr" "usbhid-dump" "xdg-desktop-icon" "numbers2raw" "msgexec" "sndfile-cmp" "fancontrol" "resizecons" "findmnt" "mke2fs" "open-browser-example" "gtk-builder-convert" "umount.nfs" "wpd2raw" "ecryptfs-rewrite-file" "ocsptool" "mtp-newfolder" "krb5-send-pr" "qpdf" "libinput-list-devices" "tri-lit-material" "userdel" "geartrain" "date" "pmap" "calc_tickadj" "nmbd" "paperconf" "nl-addr-list" "lua5.3" "grodvi" "kbxutil" "gifclrmp" "update-ca-trust" "libgcrypt-config" "loadunimap" "v4l2-dbg" "canberra-boot" "nl-cls-list" "dmeventd" "gdbus-codegen" "mkfs.minix" "gpinyin" "lesskey" "jbig2dec" "exfatlabel" "tri-point-line-clipped" "dump.f2fs" "addgnupghome" "xtrace" "xfs_ncheck" "mtp-files" "wpg2svgbatch.pl" "tr" "ideviceenterrecovery" "xfce4-popup-directorymenu" "nl-monitor" "js24" "mkdgifft" "gnome-keyring-3" "mwawZip" "vp-tri-invariant" "dvipdf" "scmp_sys_resolver" "foomatic-cleanupdrivers" "startx" "clang++" "pfbtops" "as" "ntfssecaudit" "cgdisk" "geom-outlining-150" "glxsnoop" "xfce4-session-logout" "unix_update" "c++filt" "pacman-key" "toe" "pub2xhtml" "cacaserver" "analyze" "mmcli" "pvs" "nfsdcltrack" "yuvdeinterlace" "tri-unfilled-tri" "infocmp" "pango-view" "bdftogd" "fusermount" "ijs_server_example" "nettle-lfib-stream" "mtdev-test" "pvscan" "peekfd" "manpath" "orcus-xlsx" "more" "newusers" "newgrp" "systemd-mount" "tee" "uptime" "vgmknodes" "noise2" "fastboot" "lsblk" "foomatic-searchprinter" "vsd2xhtml" "xfs_info" "osdemo16" "omxregister-bellagio" "gssproxy" "jinfo" "luac5.3" "libwmf-config" "systemd-escape" "guile-config" "nfs-ls" "mtp-format" "psktool" "ndptool" "clang-offload-bundler" "xfs_io" "pod2texi" "point-clip" "regdiff" "fftw-wisdom" "gpgme-config" "dmidecode" "2to3-2.7" "gparted_polkit" "gdisk" "ldns-test-edns" "pam_tally2" "cvt" "sndfile-salvage" "get-versions" "overlay" "nl-cls-delete" "steam_install_workaround" "eapol_test" "e2fsck" "pppstats" "viewnior" "pnm2png" "btrfs-select-super" "ebook2html" "unace" "yuv2lav" "hp-plugin" "wtpt" "wks2text" "python2.7-config" "ppdmerge" "trirast" "paste" "twm" "fsck.f2fs" "printafm" "reset" "sqldiff" "fatlabel" "gsettings-data-convert" "slocate" "glav" "mp4subtitle" "getfacl" "dumpsexp" "mpicalc" "yuvplay" "skinning" "x86_64-pc-linux-gnu-gcc-nm" "grub-file" "scp" "f2fscrypt" "logsave" "hdparm" "acpid" "manjaro-hello" "alsabat" "blkid" "cp" "caca-config" "psfgettable" "arp" "nl-list-caches" "machinectl" "hwclock" "smbtar" "lzmore" "mkreiserfs" "vsd2raw" "jack_monitor_client" "kbd_mode" "tri-flat-clip" "avahi-discover-standalone" "tsort" "tri-fp-const-imm" "jconsole" "abw2html" "gpgscm" "slsh" "ecryptfs-setup-swap" "VBoxService" "systemd-nspawn" "msgen" "nf-exp-add" "db_upgrade" "sgdisk" "dirmngr-client" "snmptest" "jps" "create-cracklib-dict" "intltool-prepare" "dhclient-script" "fax2tiff" "freetype-config" "gobject-query" "pgon-mode" "imlib2_poly" "libassuan-config" "dvcont" "xeglgears" "zic" "NetworkManager" "glxgears32" "mkdosfs" "wpd2html" "mkfifo" "debugfs" "python3.6-config" "ecryptfs-insert-wrapped-passphrase-into-keyring" "steamdeps" "hp-timedate" "jack_load_test" "jack_server_control" "quad-tex-pbo" "nl-qdisc-list" "hp-upgrade" "chattr" "mtp-reset" "ndrdump" "idle" "grotty" "startxfce4" "glxgears_fbconfig32" "cifsdd" "winpos" "cpufreq-bench" "lspcmcia" "ldns-zcat" "m17n-dump" "btrfs-find-root" "lslogins" "adb" "grub-menulst2cfg" "pip" "mplex" "sort" "xmllint" "jarsigner" "gpg2" "tri-fbo-tex-mip" "wpa_passphrase" "texi2any" "kswitch" "nf-queue" "jack_disconnect" "dlist-tri-mat-tri" "db_stat" "partprobe" "nl-class-list" "mkhomedir_helper" "gtf" "ps2ascii" "systemd-inhibit" "parted" "y4mdenoise" "cec-ctl" "xmlwf" "tput" "wmf2gd" "xz" "grub-set-default" "dbus-update-activation-environment" "quad-tex-3d" "msgconv" "exo-preferred-applications" "cpupower" "openssl-1.0" "tri-z-eq" "lookbib" "roqet" "cjb2" "voikkogc" "dvbv5-scan" "pamac-tray" "era_restore" "line-wide" "ntfswipe" "ld" "snmpnetstat" "a52dec" "openvpn" "bezier" "cd-iccdump" "dbus-send" "csslint-0.6" "ir-keytable" "era_invalidate" "cache_check" "xfce4-screenshooter" "icu-config-32" "pacman" "pdftocairo" "captest" "idn" "ping" "glxpbdemo32" "vp-tri-cb-tex" "smbget" "iptables-restore-translate" "modutil" "ul" "hp-diagnose_queues" "cache_repair" "fsck.btrfs" "w" "gamma" "es2gears_x1132" "ghc-8.2.1" "apu-1-config" "snmpdf" "psfstriptable" "hp-sendfax" "rcc" "pscap" "curl" "simple-example" "cracklib-unpacker" "net-snmp-create-v3-user" "pam_tally" "pcre2test" "runuser" "tiffmedian" "wps2raw" "xfont32" "setkeycodes" "usb-devices" "grub-mkstandalone" "vss2raw" "sulogin" "lsmod" "pixeltest" "tri-unfilled-point" "blueman-browse" "nl-link-stats" "sndfile-concat" "plistutil" "abw2raw" "cpp" "kprop" "x86_64-pc-linux-gnu-gcc-ar" "opj_dump" "flex" "imginfo" "m17n-view" "javap" "wnck-urgency-monitor" "chromium" "os-prober" "tri-fbo-tex" "offset" "fixqt4headers.pl-qt5" "tac" "gprof" "xfce4-keyboard-settings" "chmorph" "glxpixmap32" "curve_keygen" "texture_from_pixmap32" "dbus-binding-tool" "tri-scissor-tri" "vgcfgbackup" "kill" "png2pnm" "xfce4-notes-settings" "cupsenable" "plipconfig" "mogrify" "zramctl" "gdk-pixbuf-thumbnailer" "vertexrate" "gvfs-mime" "fribidi" "ideviceinfo" "skdump" "tri-dlist" "vpxdec" "efivar" "roff2html" "clear-random" "sndfile-metadata-get" "pdfdetach" "lou_checkhyphens" "route" "pidl" "ttfread" "cmx2text" "avahi-publish" "nf-monitor" "fc-validate" "defrag.f2fs" "ifstat" "nmtui" "gdiffmk" "point-sprite" "ip6tables" "hmac256" "mdassemble" "cupsd" "xfce4-accessibility-settings" "csplit" "xtotroff" "dfbplay" "xfce4-panel" "zresample" "dirmngr" "lavplay" "soelim" "jpegtran" "keyctl" "vipw" "vgcfgrestore" "multiarb" "sysctl" "imlib2_conv" "bzdiff" "qmi-firmware-update" "jack_midisine" "getfattr" "rtmon" "sbcenc" "gifmaker" "es2tri32" "ld.bfd" "alsatplg" "jstat" "disable-paste" "cifs.idmap" "smbcontrol" "patch" "setfont" "pygobject-codegen-2.0" "xdg-settings" "ntfsinfo" "icctrans" "vert-or-frag-only" "sxpm" "hltest" "udisksctl" "pspell-config" "cifs.upcall" "aclocal" "fibmap.f2fs" "cupsdisable" "cracklib-format" "aclocal-1.15" "tfmtodit" "mkfs.ntfs" "mkfs" "ntp-keygen" "vlc-wrapper" "signver" "steam" "dfbfx" "pamac-install" "speexenc" "ssltap" "jfs_fsck" "cheapskate" "xfce4-popup-clipman-actions" "isosurf" "update-grub" "xdg-mime" "repo-remove" "jack_midiseq" "psfaddtable" "ntfscluster" "pr" "git-shell" "systemd-tty-ask-password-agent" "foomatic-combo-xml" "quadstrip-flat" "transicc" "pldd" "rarp" "pygtk-codegen-2.0" "pidof" "genbrk" "quadstrip-clip" "mwaw2raw" "ldbrename" "ip6tables-compat-save" "dmsetup" "line-smooth" "singlebuffer" "ps2epsi" "kmod" "gzip" "ps2ps2" "bzmore" "javah" "lou_allround" "zmore" "glxcontexts32" "substrings.pl" "nmblookup" "dhclient" "btrfs-image" "ntfsresize" "genrb" "idevicedate" "hexdump" "reiserfstune" "gvfs-monitor-file" "systool" "umount" "msgfmt" "nl-qdisc-delete" "ecryptfsd" "y4mscaler" "pf2afm" "loimpress" "gd2topng" "smbtorture" "fsck.minix" "signtool" "fogcoord" "hzip" "ppdc" "rdjpgcom" "bshell" "wmf2eps" "ntfscmp" "linestrip-clip" "genccode" "gsbj" "setvtrgb" "geom-outlining-130" "busctl" "cifscreds" "encode_keychange" "nl-link-ifindex2name" "foomatic-kitload" "gsdj500" "alsabat-test.sh" "gss-client" "cxpm" "jack_metro" "../" "./")
+
+ ("/etc/samba/" (22997 22014 207492 913000) "./" "private/" "smb.conf.default~" "../")
+
+ ("/etc/" (23000 1840 726666 666000) "libreoffice/" "libnl/" "hostname" "pam.d/" "group" "pamac.conf" "cron.weekly/" "gufw/" "nanorc" "cpufreq-bench.conf" "environment" "rc.local" "udisks2/" "resolv.conf" "cron.d/" "nfsmount.conf" ".pwd.lock" "rpc" "iptables/" "inputrc" "host.conf" "ethertypes" "foomatic/" "bluetooth/" "acpi/" "manjaro-release" "polkit-1/" "bash/" "ntp.conf" "modprobe.d/" "xdg/" "cron.daily/" "gtk-3.0/" "passwd-" "shadow" "X11/" "dhcpcd.conf" "locale.conf" "gimp/" "drirc.pacnew" "gconf/" "sane.d/" "ld.so.cache" "wpa_supplicant/" "rsyncd.conf" "sensors.d/" "ts.conf" "pcmcia/" "request-key.conf" "vpnc/" "pacman.conf" "libpaper.d/" "hosts" "modules-load.d/" "ld.so.conf.d/" "mkinitcpio.d/" "trusted-key.key" "geoclue/" "nscd.conf" "tmpfiles.d/" "vconsole.conf" "samba/" "shadow-" "pacman.d/" "drirc" "services" "protocols" "locale.gen" "mke2fs.conf" "krb5.conf" "rc.local.shutdown" "cron.deny" "mdadm.conf" "exports.d/" "fonts/" "bash.bash_logout" "pacman-mirrors.conf" "resolvconf.conf" "crypttab" "default/" "pulse/" "sudoers.d/" "gtk-2.0/" "UPower/" "netconfig" "mkinitcpio.conf" "lvm/" "gshadow-" "logrotate.conf" "mail.rc" "passwd" "java-8-openjdk/" "exports" "rc_keymaps/" "motd" "gshadow" "initcpio/" "adjtime" "ssh/" "gai.conf" "vdpau_wrapper.cfg" "apparmor.d/" "depmod.d/" "skel/" "lightdm/" "os-release" "ca-certificates/" "gss/" "sensors3.conf" "profile.d/" "cron.hourly/" "udev/" "fstab" "securetty" "profile" "iproute2/" "cups/" "locale.gen.pacnew" "man_db.conf" "./" "xml/" "rc_maps.cfg" "ld.so.conf" "localtime" "systemd/" "ufw/" "asound.conf" "nsswitch.conf" "zsh/" "makepkg.conf" "request-key.d/" "lsb-release" "cifs-utils/" "healthd.conf" "yaourtrc" "grub.d/" "mtab" "hp/" ".updated" "libblockdev/" "dbus-1/" "ff-theme-util/" "kernel/" "anacrontab" "cron.monthly/" "shells" "slsh.rc" "xinetd.d/" "security/" "bash.bashrc" "updatedb.conf" "gssproxy/" "group-" "mime.types" "machine-id" "binfmt.d/" "conf.d/" "issue" "fuse.conf" "ssl/" "openldap/" "NetworkManager/" "sudoers" "ImageMagick-6/" "openvpn/" "../" "ppp/" "papersize" "avahi/" "logrotate.d/" "timezone" "dnsmasq.conf" "pkcs11/" "nfs.conf" "sysctl.d/" "openswap.conf" "login.defs")
+
+ ("/home/jallen/.emacs.d/" (22997 32336 61718 188000) "elpa/" "README.md" "network-security.data" "irony/" "lisp/" "session.2bbbdb849-7c5d-4ac9-8330-f03417766d7f" "session.29741249c-95d1-4f20-a124-aced2d70c551" "init.el~" "lib/" "ac-comphist.dat" "session.2888dd346-5dad-4efa-adf4-da0dc6aa863b" "session.25e3fa9d6-ca9b-4b0e-83ad-37462a7efbc3" "eshell/" "session.20c42c5ad-3c48-4c62-81c3-a6cacab0350a" "session.2aee14150-ae5e-4ccd-995f-283fcc726f37" "ido.last~" "session.243a2883b-f178-4f38-ad82-8b5b8ca6b7d7" "auto-save-list/" "session.21a7e4cbb-d63c-44b1-8b69-75dd406cf68b" "tramp" "./" "url/" "session.24f05b3ba-ce08-48ab-a576-26f90659116b" "ido.last" "../" "session.2c2f0adf7-1c5b-4ad9-9973-6bd93de9f45c" "init.el" ".git/")
+
+ ("/home/jallen/" (23000 3905 910713 383000) ".vboxclient-seamless.pid" "idris/" ".bash_logout" ".mozilla/" ".Xclients" "Pictures/" ".profile~" ".profile" ".extend.xinitrc" ".cache/" ".config/" ".xfce4-session.verbose-log.last" "Videos/" "Downloads/" ".bash_history" ".xsession-errors.old" "Templates/" ".bash_profile" "Documents/" ".stack/" ".ICEauthority" "Music/" ".bash_profile~" ".m2/" ".ghc/" ".Xauthority" ".xprofile" ".xfce4-session.verbose-log" ".guayadeque/" ".icons/" ".xsession-errors" ".xsession" ".esd_auth" ".ff-theme-util_1strun" ".dir_colors" ".pki/" ".local/" "./" ".vboxclient-clipboard.pid" ".lein/" ".emacs.d/" ".thumbnails/" ".gnupg/" ".idris/" "Desktop/" ".vboxclient-draganddrop.pid" "Public/" "dev/" ".vboxclient-display.pid" ".bashrc" ".extend.bashrc" "../" ".xinitrc" ".Xresources")
+
+ ("/home/jallen/dev/idris/tdd/ch6/" (22997 31976 696818 294000) "ch6.ipkg~" "Main.ibc" "Main.idr" "Main.idr~" "./" "ch6.ipkg" "../")
+
+ ("/home/jallen/dev/idris/tdd/ch4/" (22991 60117 802156 286000) "ch4.ipkg" "Main.ibc" "Main.idr" "Main.idr~" "ch4.ipkg~" "./" "../")
+
+ ("/home/jallen/dev/idris/tdd/ch3/" (22989 40143 177913 384000) "ch3.ipkg" "ch3" "Main.ibc" "Main.idr" "./" "../")
+
+ ("/home/jallen/dev/idris/dtdd/ch3/" (22988 15921 886284 197000) "ch3.ipkg" "00ch3-idx.ibc" "ch3" "Main.ibc" "Main.idr" "./" "../")
+
+ ("/home/jallen/dev/idris/dtdd/" (22988 12283 658548 993000) "ch3/" "./" "../")
+
+ ("/home/jallen/dev/" (22988 10667 499266 688000) "idris/" "./" "../")
+
+ ("/home/jallen/dev/idris/hello/" (22988 12179 123781 942000) "hello" "Main.ibc" "hello.ipkg" "Main.idr" "./" "../")
+
+ ("/home/jallen/Dev/" (22967 13237 243333 331000) "./" "../")
+
+ ("/home/jallen/Downloads/" (22936 56497 30086 707000) "emacs_backup.tar.gz" "./" "../")
+
+ ("/home/jallen/Desktop/" (22936 51785 556666 666000) "./" "../")
+
+ ("/home/" (22936 51615 883892 666000) "jallen/" "./" "../")
+
+ ("/tmp/.emacs.d/elpa/" (22886 41467 880955 712000) "archives/" "company-ghci-20160310.1800/" "epl-20150517.433/" "gnupg/" "ace-jump-mode-20140616.115/" "pkg-info-20150517.443/" "queue-0.1.1.signed" "queue-0.1.1/" "buffer-move-20160615.1103/" "pos-tip-20150318.813/" "popup-20160709.729/" "company-emacs-eclim-20170104.743/" "rainbow-delimiters-20160430.2358/" "rainbow-delimiters-readme.txt" "spinner-1.7.3.signed" "spinner-1.7.3/" "seq-2.20.signed" "yasnippet-20170624.803/" "web-mode-20170709.922/" "yasnippet-20170605.1940/" "seq-2.20/" "dash-20170613.151/" "go-mode-20170308.1512/" "company-go-20170420.515/" "auto-complete-20170124.1845/" "s-20170428.1026/" "paredit-20170405.1149/" "irony-eldoc-20170502.1208/" "eclim-20170522.1354/" "company-quickhelp-20170429.1052/" "company-irony-20170612.1308/" "exec-path-from-shell-20170508.4/" "typescript-mode-20170710.427/" "company-20170617.1502/" "tide-20170712.638/" "irony-20170627.1045/" "haskell-mode-20170704.1445/" "fuel-20170709.139/" "flycheck-20170707.920/" "clojure-mode-20170712.349/" "cider-20170710.616/" "../" "./")
+
+ ("/tmp/.emacs.d/" (22886 41678 956171 954000) "ido.last~" "ido.last" "session.29741249c-95d1-4f20-a124-aced2d70c551" "init.el~" "session.2888dd346-5dad-4efa-adf4-da0dc6aa863b" "session.21a7e4cbb-d63c-44b1-8b69-75dd406cf68b" "session.24f05b3ba-ce08-48ab-a576-26f90659116b" "session.20c42c5ad-3c48-4c62-81c3-a6cacab0350a" "session.243a2883b-f178-4f38-ad82-8b5b8ca6b7d7" "init.el" "ac-comphist.dat" "session.2c2f0adf7-1c5b-4ad9-9973-6bd93de9f45c" "session.2bbbdb849-7c5d-4ac9-8330-f03417766d7f" "eshell/" ".git/" "README.md" "auto-save-list/" "irony/" "network-security.data" "session.25e3fa9d6-ca9b-4b0e-83ad-37462a7efbc3" "url/" "elpa/" "lib/" "lisp/" "../" "./")
+
+ ("/tmp/.emacs.d/lisp/" (22886 41467 917622 770000) "init-mu4e.el~" "init-erc.el" "init-erc.el~" "init-mu4e.el" "init-clojure-cider.el" "init-elpa.el" "init-haskell.el" "init-windmove.el" "init-theme.el" "init-ace-jump.el" "init-c.el" "init-eclim.el" "init-buffer-move.el" "init-typescript.el" "init-typescript.el~" "init-go.el~" "init-go.el" "../" "./")
+
+ ("/home/joe/" (22886 41287 103792 796000) ".ts3client/" "Public/" ".Xclients" "My Games/" "devildaggers/" ".steampath" "Dev/" ".pulse-cookie" "jmonkeyplatform/" ".icons/" ".oracle_jre_usage/" ".ssh/" ".python_history" ".offlineimap/" ".pki/" ".m2/" ".eclim/" ".local/" ".xsession-errors.old" ".swt/" ".cache/" ".dir_colors" ".bash_logout" ".gitconfig" ".jmonkeyplatform-installer/" "goprojects/" ".w3m/" ".ercpass" ".authinfo" "./" ".bash_history" ".jmonkeyplatform/" ".gnupg/" ".Xauthority" "Desktop/" ".xfce4-session.verbose-log.last" ".bashrc" ".viminfo" ".guayadeque/" "Documents/" ".xinitrc" ".nvidia-settings-rc" ".ICEauthority" "Videos/" ".gstreamer-0.10/" ".thumbnails/" "workbench.xmi" ".esd_auth" ".xfce4-session.verbose-log" "Envs/" ".lein_history" ".ghc/" ".nnd_history" ".npm/" "JmeTests/" ".dmrc" ".mu/" ".gforth-history" ".lein/" ".config/" ".steam/" "Downloads/" ".bashrc~" ".offlineimaprc~" ".mozilla/" "Maildir/" ".nv/" ".emacs.d/" "Templates/" ".extend.bashrc" "Pictures/" "log/" ".eclipse/" ".swp" ".java/" ".subversion/" ".hplip/" ".factor/" "../" ".stack/" ".xprofile" ".xsession-errors" "Music/" ".bash_profile" ".gnome/" ".steampid" ".offlineimaprc" "workspace/" ".tooling/")
+
+ ("/home/joe/Dev/go/nnd/" (22878 52286 88462 848000) "nnd.go" "./" "../" "nnd.go~")
+
+ ("/home/joe/Dev/factor/" (22876 15731 698325 156000) "tutorial/" "./" "test/" "../")
+
+ ("/home/joe/Dev/c++/srcatch/" (22514 32454 878609 618000) "./" "scratch.c++" "scratch.c++~" "../" "scratch")
+
+ ("/home/joe/Dev/test/" (22875 59808 350962 993000) "./" "../")
+
+ ("/home/joe/.factor/factor/work/" (22876 16406 711956 906000) "tutorial/" "palindrome/" "./" "README.txt" "../")
+
+ ("/home/joe/.emacs.d/" (22876 21981 324800 101000) "session.2c2f0adf7-1c5b-4ad9-9973-6bd93de9f45c" "session.20c42c5ad-3c48-4c62-81c3-a6cacab0350a" "README.md" "session.2888dd346-5dad-4efa-adf4-da0dc6aa863b" "./" "session.25e3fa9d6-ca9b-4b0e-83ad-37462a7efbc3" "session.21a7e4cbb-d63c-44b1-8b69-75dd406cf68b" ".git/" "ido.last~" "session.29741249c-95d1-4f20-a124-aced2d70c551" "lib/" "init.el~" "init.el" "lisp/" "auto-save-list/" "ido.last" "eshell/" "../" "session.243a2883b-f178-4f38-ad82-8b5b8ca6b7d7" "irony/" "ac-comphist.dat" "url/" "session.24f05b3ba-ce08-48ab-a576-26f90659116b" "network-security.data" "elpa/")
+
+ ("/home/joe/Dev/factor/test/" (22875 60767 826389 922000) "./" "test.factor~" "../" "test.factor")
+
+ ("/home/joe/Dev/factor/tutorial/" (22876 21128 652334 35000) "tutorial.factor~" "./" "../" "tutorial.factor")
+
+ ("/home/joe/Dev/go/" (22877 12730 13964 627000) "./" "test/" "../" "nnd/")
+
+ ("/home/joe/.factor/factor/Factor.app/" (22875 56290 939741 739000) "./" "Contents/" "../")
+
+ ("/home/joe/.factor/factor/" (22875 56522 226625 567000) "core/" ".gitignore" "boot.unix-x86.64.image" "README.md" "vm/" ".gitattributes" "./" "libfactor-ffi-test.so" ".git/" "Factor.app/" "factor.image.fresh" "work/" "factor" "build.sh" "extra/" "misc/" "../" "libfactor.a" ".dir-locals.el" "Nmakefile" "basis/" "factor.image" "LICENSE.txt" "build.cmd" "GNUmakefile")
+
+ ("/home/joe/.factor/" (22875 58458 858323 915000) "./" "factor/" "../")
+
+ ("/home/joe/Dev/" (22875 59738 533610 1000) "web/" "go/" "./" "typescript/" "java/" "c++/" "test/" "factor/" "clojure/" "../" "haskell/" "rust/")
+
+ ("/home/joe/Dev/java/Pad/src/" (22868 16757 392581 241000) "Pad.java~" "./" "Pad.java" "../")
+
+ ("/home/joe/Dev/c++/pad/" (22868 16330 431450 51000) "rs" "bin.cpp" "bin" "./" "hw4.cpp" "MyRandom.txt" "hw4.cpp~" "hw4" "Random.txt" "../" "rockstar.cpp~" "rockstar.cpp" "bin.cpp~")
+
+ ("/home/joe/Documents/jobHunt/" (22866 39332 540834 301000) "./" "JosephAllenResume.pdf" "../")
+
+ ("/home/joe/Dev/factor/factor/" (22852 23944 362828 355000) "git-id" "core/" "README.md" "./" "libfactor-ffi-test.so" "license.txt" "work/" "factor" "extra/" "misc/" "../" "libfactor.a" ".dir-locals.el" "basis/" "factor.image")
+
+ ("/home/joe/.emacs.d/lisp/" (22866 43682 169886 675000) "init-typescript.el~" "init-buffer-move.el" "init-c.el" "./" "init-theme.el" "init-erc.el" "init-eclim.el" "init-elpa.el" "init-mu4e.el" "init-mu4e.el~" "init-erc.el~" "init-typescript.el" "init-haskell.el" "init-ace-jump.el" "init-windmove.el" "../" "init-go.el" "init-go.el~" "init-clojure-cider.el")
+
+ ("/home/joe/Dev/go/test/" (22866 45114 722338 649000) "test.go" "./" "test.go~" "../")
+
+ ("/home/joe/Dev/c++/nnd/" (22859 4669 128235 410000) "nnd.cpp" "README.md" "./" ".git/" "../" "nnd")
+
+ ("/home/joe/Dev/c++/" (22849 50668 825295 976000) "./" "test/" "srcatch/" "../" "nnd/" "pad/")
+
+ ("/home/joe/Dev/c++/cgi/" (22849 50640 421653 422000) "nnd.cpp" "./" "cgi.cpp~" "../" "nnd")
+
+ ("/home/joe/.steam/steam/" (22848 37274 303506 251000) "linux32/" "html5app/" "ThirdPartyLegalNotices.css" "servers/" "bin_steamdeps.py" "package/" "bin_steam.sh" "logs/" "config/" "remoteui/" "steam.sh" "controller_base/" "bin/" "./" "linux64/" "steam_msg.sh" "resource/" "ubuntu12_32/" "music/" "appcache/" "graphics/" "tenfoot/" "steam/" "steam_install_agreement.txt" "fontconfig/" "bootstrap.tar.xz" "ssfn4672203139616161125" "ThirdPartyLegalNotices.html" "depotcache/" "ubuntu12_64/" "ThirdPartyLegalNotices.doc" "../" "public/" "steamdeps.txt" "steamapps/" "userdata/" "friends/" "skins/")
+
+ ("/home/joe/Dev/clojure/om-tut/src/om_tut/" (22770 42787 989026 637000) "core.cljs~" "./" "#core.cljs#" "core.cljs" "../")
+
+ ("/home/joe/Dev/clojure/cmonkey/" (22779 40143 953748 353000) "project.clj" ".hgignore" ".gitignore" "README.md" ".lein-repl-history" "./" "CHANGELOG.md" ".git/" "LICENSE" "liblwjgl64.so" "libopenal64.so" "test/" "target/" "resources/" "../" "doc/" "src/")
+
+ ("/home/joe/Dev/clojure/cmonkey/src/cmonkey/" (22779 40138 40347 882000) "./" "core.clj" "../")
+
+ ("/home/joe/Dev/java/JosephAllenCodingChallenge/src/" (22787 34002 948031 711000) "./" "Main.java" "Main.java~" "../")
+
+ ("/home/joe/Dev/clojure/stuff/src/stuff/" (22804 54784 426371 5000) "core.cljs~" "./" "core.cljs" "../")
+
+ ("/home/joe/Dev/clojure/stuff/" (22804 55255 598034 19000) "project.clj~" "project.clj" ".gitignore" "README.md" "./" "LICENSE" "figwheel_server.log" "target/" "../" "public/" "env/" "src/")
+
+ ("/home/joe/Dev/clojure/quick-chess/src/quick_chess/" (22814 23076 449149 263000) "core.cljs~" "./" "core.cljs" "../")
+
+ ("/home/joe/Dev/rust/" (22499 9471 106918 489000) "./" "../")
+
+ ("/home/joe/Dev/clojure/quick-chess/" (22812 44085 141821 172000) "project.clj" ".gitignore" "README.md" "./" ".git/" "LICENSE" "figwheel_server.log" "target/" "../" "public/" "env/" "src/")
+
+ ("/home/joe/Dev/java/" (22787 33611 967219 429000) "./" "Scratch/" "workbench.xmi" ".project" "JosephAllenCodingChallenge/" ".classpath" "../" "RBTree/" "JosephAllenCodingChallenge.zip" "Pad/")
+
+ ("/home/joe/Dev/clojure/quick-chess/public/css/" (22804 55475 926979 995000) "./" "site.css" "../")
+
+ ("/home/joe/Dev/clojure/quick-chess/public/" (22804 55740 999749 598000) "css/" "index.html" "./" "js/" "index.html~" "../")
+
+ ("/home/joe/Dev/clojure/" (22804 55475 926979 995000) "datomic-free-0.9.5130/" "playground/" "om-async/" "./" "cmonkey/" "stuff/" "quick-chess/" "om-tut/" "crashverse/" "../" "scratch/")
+
+ ("/home/joe/Dev/clojure/quick-chess/src/" (22804 55475 926979 995000) "./" "quick_chess/" "../")
+
+ ("/home/joe/Dev/clojure/stuff/src/" (22804 54266 660962 134000) "./" "stuff/" "../")
+
+ ("/home/joe/Dev/clojure/quick-chess/resources/public/js/compiled/" (22767 47467 301969 942000) "out/" "./" "quick_chess.js" "../")
+
+ ("/home/joe/Dev/java/Scratch/src/" (22787 27144 317589 128000) "Dynamic.java~" "Tuple.java~" "Memoizer.java~" "Scratch.class" "RBTree.java" "README.md" "Tuple.java" "./" "Scratch.java~" "RBTree$RBNode.class" ".git/" "workbench.xmi" "RBTree.java~" "Scratch.java" "Factorial.java~" "Memoizer.java" "../" "Dynamic.java" "RBTree.class")
+
+ ("/home/joe/Dev/java/JosephAllenCodingChallenge/bin/" (22787 26693 265960 298000) "./" "Main.class" "../")
+
+ ("/home/joe/Dev/java/JosephAllenCodingChallenge/" (22787 26693 262626 923000) "bin/" "./" ".project" ".classpath" "../" "src/")
+
+ ("/home/joe/Dev/java/Scratch/bin/" (22734 53860 902629 668000) "Dynamic.java~" "Tuple.java~" "Memoizer.java~" "Scratch.class" "Tuple.class" "README.md" "./" "Scratch.java~" "RBTree$RBNode.class" ".git/" "workbench.xmi" "RBTree.java~" "Memoizer.class" "Factorial.java~" "../" "Dynamic.class" "RBTree.class")
+
+ ("/home/joe/Dev/clojure/cmonkey/resources/" (22778 36355 565885 343000) "./" "assets/" "../")
+
+ ("/home/joe/Dev/clojure/scratch/" (22777 5607 27471 86000) "project.clj" ".hgignore" ".gitignore" "README.md" "./" "CHANGELOG.md" "LICENSE" "test/" "target/" "resources/" "../" "doc/" "src/")
+
+ ("/home/joe/Dev/clojure/scratch/src/scratch/" (22777 5339 497978 785000) "core.clj~" "./" "core.clj" "../")
+
+ ("/home/joe/Dev/clojure/playground/src/playground/" (22775 62738 109774 108000) "core.clj~" "./" "core.clj" "../")
+
+ ("/home/joe/Dev/clojure/scratch/src/" (22775 62849 642282 863000) "./" "../" "scratch/")
+
+ ("/home/joe/Dev/web/ghetto-foreskins/frontend/src/" (22770 37144 378337 54000) "App.test.js" "App.tsx~" "index.css" "./" "logo.svg" "index.js" "App.js~" "App.js" ".dir-locals.el~" "App.css" "../" ".dir-locals.el")
+
+ ("/home/joe/.steam/" (22767 60661 552612 990000) "bin32/" "bin64/" "registry.vdf" "root/" "sdk32/" "bin/" "./" "steam.pipe" "steam/" "steam_install_agreement.txt" "steam.pid" "../" "sdk64/")
+
+ ("/home/joe/.steam/steam/steamapps/common/Counter-Strike Global Offensive/csgo/cfg/" (22767 41461 723657 589000) "cpu_level_1_pc.ekv" "thirdperson.cfg" "gamemode_coopmission.cfg" "server_blacklist.txt" "thirdperson_keypad.cfg" "gamemode_armsrace.cfg" "gamemode_casual.cfg" "valve.rc" "mem_level_1_pc.ekv" "config.360.cfg" "controller.360.cfg" "config_default.cfg" "gamemode_deathmatch.cfg" "user_default.scr" "cpu_level_2_pc_ss.ekv" "moddefaults_mac.txt" "nav_bindings.cfg" "ai.cfg" "gpu_mem_level_1_pc.ekv" "autoexec.cfg~" "./" "map_edit.cfg" "test.cfg" "thirdperson_mayamode.cfg" "gpu_mem_level_2_pc.ekv" "moddefaults.txt" "navedit.cfg" "cpu_level_0_pc.ekv" "autoexec.cfg" "coop/" "start.cfg" "gpu_mem_level_0_pc.ekv" "lab.cfg" "steering_wheel.cfg" "default.cfg" "entity.cfg" "settings_default.scr" "thirdperson_joy360.cfg" "give_all_items.cfg" "sfm_defaultanimationgroups.txt" "gameps3.cfg" "undo360controller.cfg" "gamemode_custom.cfg" "cpu_level_0_pc_ss.ekv" "modsettings.cfg" "gamemode_cooperative.cfg" "gpu_level_1_pc.ekv" "controller.cfg" "gpu_level_2_pc.ekv" "gpu_level_3_pc.ekv" "game.cfg" "buypresetsdefault_ter.vdf" "mem_level_0_pc.ekv" "cpu_level_2_pc.ekv" "gamemode_training.cfg" "../" "gpu_level_0_pc.ekv" "controller_accelerated_hp.cfg" "gamemode_demolition.cfg" "listenserver.cfg" "game360.cfg" "cpu_level_1_pc_ss.ekv" "p.cfg" "buypresetsdefault_ct.vdf" "controller.vdf" "gamemode_competitive.cfg" "mem_level_2_pc.ekv")
+
+ ("/home/joe/Dev/haskell/scratch/src/" (22750 55392 484587 410000) "Lib.hs" "./" "Lib.hs~" "../")
+
+ ("/home/joe/Dev/clojure/playground/" (22750 58677 969553 815000) "project.clj~" "project.clj" ".hgignore" ".gitignore" "README.md" ".lein-repl-history" "./" "CHANGELOG.md" "LICENSE" "test/" "target/" "resources/" "../" "doc/" "src/")
+
+ ("/home/joe/Dev/clojure/om-tut/resources/public/css/" (22757 53430 375068 173000) "style.css" "./" "style.css~" "../")
+
+ ("/home/joe/Dev/clojure/om-async/src/clj/om_async/" (22758 24222 982186 802000) "core.clj~" "./" "core.clj" "util.clj" "../")
+
+ ("/home/joe/Dev/clojure/om-async/src/cljs/om_async/" (22758 24468 101229 704000) "core.cljs~" "./" "core.cljs" "../")
+
+ ("/home/joe/Dev/clojure/om-async/" (22758 21205 770194 557000) "project.clj~" "project.clj" ".gitignore" ".lein-repl-history" "./" "figwheel_server.log" "target/" "resources/" "../" "src/")
+
+ ("/home/joe/Dev/clojure/quick-chess/resources/public/" (22767 47743 844764 224000) "css/" "index.html" "./" "js/" "../")
+
+ ("/home/joe/Dev/clojure/quick-chess/resources/" (22765 1719 170040 288000) "./" "../" "public/")
+
+ ("/home/joe/Dev/clojure/om-tut/" (22757 54954 664470 709000) "project.clj" ".gitignore" "README.md" "./" "figwheel_server.log" "target/" "resources/" "dev/" "../" "src/")
+
+ ("/home/joe/Dev/clojure/crashverse/src/crashverse/" (22758 63595 142837 886000) "./" "core.cljs" "macros.clj" "../")
+
+ ("/home/joe/Dev/web/ghetto-foreskins/backend/" (22766 31869 170258 587000) "venv/" "requirements.txt" "README.md" "./" "test.py~" "../" "requirements.txt~" "test.py")
+
+ ("/home/joe/Dev/clojure/cmonkey/src/" (22765 1792 627394 116000) "./" "cmonkey/" "../")
+
+ ("/home/joe/Dev/web/ghetto-foreskins/" (22766 31054 534932 717000) ".gitignore" "README.md" "backend/" "./" ".git/" "npm-debug.log" "frontend/" "../")
+
+ ("/home/joe/Dev/clojure/crashverse/src/" (22758 61540 232921 302000) "./" "crashverse/" "../")
+
+ ("/home/joe/Dev/clojure/crashverse/" (22758 61578 433264 407000) "project.clj" ".gitignore" "./" ".git/" "test/" "figwheel_server.log" "resources/" "../" "dev_src/" "src/")
+
+ ("/home/joe/Dev/clojure/om-async/src/cljs/" (22758 15045 970247 653000) "./" "om_async/" "../")
+
+ ("/home/joe/Dev/clojure/om-async/src/clj/" (22758 15045 970247 653000) "./" "om_async/" "../")
+
+ ("/home/joe/Dev/clojure/om-async/src/" (22758 15045 970247 653000) "cljs/" "./" "../" "clj/")
+
+ ("/home/joe/Dev/clojure/om-tut/resources/public/" (22757 53390 759686 89000) "css/" "index.html" "./" "js/" "index.html~" "../")
+
+ ("/home/joe/Dev/clojure/om-tut/resources/" (22757 20816 299961 102000) "./" "../" "public/")
+
+ ("/home/joe/Dev/clojure/om-tut/src/" (22757 20816 299961 102000) "./" "../" "om_tut/")
+
+ ("/home/joe/Dev/clojure/playground/src/" (22750 42408 948672 744000) "playground/" "./" "../")
+)
+
+;; ----- ido-unc-hosts-cache -----
+t
