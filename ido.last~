@@ -1,0 +1,29 @@
+;;; -*- coding: utf-8 -*-
+
+;; ----- ido-last-directory-list -----
+(
+ ("/home/joe/.emacs.d/" . "lisp/")
+ ("/home/joe/" . ".emacs.d/")
+)
+
+;; ----- ido-work-directory-list -----
+(
+ "/home/joe/.emacs.d/lisp/"
+)
+
+;; ----- ido-work-file-list -----
+(
+ "init-theme.el"
+)
+
+;; ----- ido-dir-file-cache -----
+(
+ ("/home/joe/.emacs.d/lisp/" (23512 56384 200000 4000) "init-erc.el" "init-haskell.el" "init-typescript.el" "init-buffer-move.el" "init-mu4e.el~" "../" "init-clojure-cider.el" "init-go.el~" "init-go.el" "init-erc.el~" "init-eclim.el" "init-windmove.el" "init-elpa.el" "./" "init-theme.el" "init-mu4e.el" "init-ace-jump.el" "init-typescript.el~" "init-c.el")
+
+ ("/home/joe/.emacs.d/" (23512 56452 403333 341000) "../" "auto-save-list/" "README.md" "lib/" "./" "lisp/" "ido.last" "elpa/" "init.el" ".git/")
+
+ ("/home/joe/" (23512 55859 6666 665000) "Downloads/" ".dir_colors" ".ICEauthority" "../" ".esd_auth" ".gnupg/" ".thumbnails/" "Pictures/" ".config/" "Music/" "Public/" ".pki/" ".xsession-errors.old" ".Xclients" "Videos/" ".bash_logout" "Documents/" ".xsession-errors" ".bash_history" "./" "Templates/" ".Xauthority" ".xinitrc" ".profile" ".emacs.d/" ".bashrc" ".bash_profile" ".local/" ".cache/" "Desktop/")
+)
+
+;; ----- ido-unc-hosts-cache -----
+t

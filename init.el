@@ -59,7 +59,7 @@
  '(haskell-process-type (quote stack-ghci))
  '(package-selected-packages
    (quote
-    (idris-mode neotree fuel exec-path-from-shell auto-complete company-go go-mode rainbow-delimiters company-emacs-eclim web-mode tide flycheck company-quickhelp ace-jump-mode buffer-move eclim jdee irony-eldoc company-irony company-ghci haskell-mode ## paredit irony cider)))
+    (doom-themes idris-mode neotree fuel exec-path-from-shell auto-complete company-go go-mode rainbow-delimiters company-emacs-eclim web-mode tide flycheck company-quickhelp ace-jump-mode buffer-move eclim jdee irony-eldoc company-irony company-ghci haskell-mode ## paredit irony cider)))
  '(x-select-enable-clipboard-manager nil))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
